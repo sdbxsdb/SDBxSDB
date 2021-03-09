@@ -8,7 +8,7 @@
     <div id="headingTitle">
       <h1>Welcome!</h1>
     </div>
-    <div id="headingText" <p>My name is Sam and I'd like to take a minute, just sit right there and I'll tell you... a little about myself and show you some of my work!</p><small>(If you didn't sing the theme from Fresh Prince there please <a href="https://www.youtube.com/watch?v=1nCqRmx3Dnw">educate</a> yourself and return at a later date..) </small>
+    <div id="headingText" <p>My name is Sam and I'd like to take a minute, just sit right there and I'll tell you... a little about myself and show you some of my work!</p><small>(If you didn't sing the theme from Fresh Prince there please <a href="https://www.youtube.com/watch?v=1nCqRmx3Dnw" target="_blank">educate</a> yourself and return at a later date..) </small>
     </div>
   </div>
 </div>
