@@ -1,0 +1,154 @@
+.grow {
+  animation: grow 5s ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation: grow 5s ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes grow {
+  0% {
+    color: rgb(0, 135, 189);
+  }
+
+  50% {
+    color: white;
+  }
+
+  100% {
+    color: rgb(0, 135, 189);
+  }
+}
+
+
+#gamePageBtn {
+  max-width: 120px;
+  background-color: transparent;
+  border: solid 1px white;
+  margin: 10px auto;
+
+  @media only screen and (max-width: 1020px) {
+    margin: 40px auto 0;
+  }
+
+  &:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 183, 255);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+    transform: scale(1.02);
+  }
+
+}
+
+body {
+  height: 100%;
+  background-color: rgb(0, 183, 255);
+  color: white;
+  text-align: center;
+  
+
+  a {
+    color: black;
+  }
+}
+
+#landingLogo {
+  width: 80px;
+
+}
+
+#gamePageWrapper {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(0, 183, 255);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  #welcome {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  #gameWrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    #screenTooSmall {
+      display: none;
+      height: auto;
+      padding: 20px;
+      margin: 0 15px;
+      background-color: black;
+      border-radius: 10px;
+
+      @media only screen and (max-width: 1020px) {
+        display: block;
+      }
+    }
+  }
+
+}
+
+
+#pong {
+  border-radius: 20px;
+}
+
+#canvasWrapper {
+  position: relative;
+}
+
+#game {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+
+  @media only screen and (max-width: 1020px) {
+    display: none;
+  }
+}
+
+
+#gameText {
+  margin-top: 115px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  color: white;
+}
+
+#moveMouse {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#startGame {
+  margin-bottom: 0;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+  }
+}
+
+#footerIndexPg {
+  padding: 20px;
+}
+
+
+
