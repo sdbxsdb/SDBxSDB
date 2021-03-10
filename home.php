@@ -102,7 +102,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">CSS &amp; SCSS</h5>
-        <p class="card-text">I've learnt quickly able to refine and reduce the lines of code and readability considerably when writing CSS.<br><br>I'm very familiar with flexbox and familiar with CSS grids.  I love writing SCSS - fimiliar syntax, great nesting and very handy live reloads for VS Code. <br><br>When I appropriate I also using custom CSS animations to increase the UX. I even built an entire revolving solar system in CSS.</p>
+        <p class="card-text">I've learnt quickly able to refine and reduce the lines of code and readability considerably when writing CSS.<br><br>I'm very familiar with flexbox and familiar with CSS grids.  I love writing SCSS - familiar syntax, great nesting and very handy live reloads for VS Code. <br><br>When I appropriate I also using custom CSS animations to increase the UX. I even built an entire revolving solar system in CSS.</p>
         <p class="card-text"></p>
       </div>
       <div class="slidecontainer">
@@ -298,7 +298,7 @@
 
       <div class="card">
         <a href="/portfolioFamilyGram.php">
-          <img class="card-img-top" src="/img/wedding.jpg">
+          <img class="card-img-top" src="/img/famGramLogo-mincopy.png">
           <h5 class="card-title">Family Gram</h5>
           <hr>
           <!-- <p class="card-text text">A designed and built for a wedding film company with -</p>
