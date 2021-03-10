@@ -44,9 +44,6 @@
       <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#jsCode" aria-controls="jsCode" role="tab">JavaScript</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#phpCode" aria-controls="phpCode" role="tab">Contact Submission Form PHP</a>
-      </li>
     </ul>
   </div>
   <div id="tabContent" class="tab-content">
@@ -68,40 +65,46 @@
         <div class="tab-content">
 
         <div class="tab-pane active" id="tab0" role="tabpanel">
-            <?php include ("includes/EAheadernavCode.php") ?>
+            <?php include ("") ?>
+            <p>Work in progress</p>
           </div>
 
           <div class="tab-pane active" id="tab1" role="tabpanel">
-            <?php include ("includes/EAhomeCode.php") ?>
+            <?php include ("") ?>
+            <p>Work in progress</p>
           </div>
           
 
           <div class="tab-pane" id="tab7" role="tabpanel">
-            <?php include ("includes/EAfooterCode.php") ?>
+            <?php include ("") ?>
+            <p>Work in progress</p>
           </div>
         </div>
       </div>
     </div>
     <div class="tab-pane active" id="websiteTab" role="tabpanel">
-      <p>Upload in progress</p>
+      <p>Work in progress</p>
       <iframe src="" frameborder="0"></iframe>
     </div>
 
     <div class="tab-pane" id="cssCode" role="tabpanel">
       <code>
-        <?php include ("includes/EAcssCode.php") ?>
+      <p>Work in progress</p>
+        <?php include ("") ?>
       </code>
     </div>
 
     <div class="tab-pane" id="jsCode" role="tabpanel">
       <code>
-        <?php include ("includes/EAjsCode.php") ?>
+      <p>Work in progress</p>
+        <?php include ("") ?>
       </code>
     </div>
 
     <div class="tab-pane" id="phpCode" role="tabpanel">
       <code>
-        <?php include ("includes/EAthanksPHP.php") ?>
+      <p>Work in progress</p>
+        <?php include ("") ?>
       </code>
     </div>
 
