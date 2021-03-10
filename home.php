@@ -8,7 +8,7 @@
     <div id="headingTitle">
       <h1>Welcome!</h1>
     </div>
-    <div id="headingText" <p>My name is Sam and I'd like to take a minute, just sit right there and I'll tell you... a little about myself and show you some of my work!</p><small>(If you didn't sing the theme from Fresh Prince there please <a href="https://www.youtube.com/watch?v=1nCqRmx3Dnw" target="_blank">educate</a> yourself and return at a later date..) </small>
+    <div id="headingText">My name is Sam and I'd like to take a minute, just sit right there and I'll tell you... a little about myself and show you some of my work!</p><small>(If you didn't sing the theme from Fresh Prince there please <a href="https://www.youtube.com/watch?v=1nCqRmx3Dnw" target="_blank">educate</a> yourself and return at a later date..) </small>
     </div>
   </div>
 </div>
@@ -101,8 +101,8 @@
   <div class="card-deck">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">CSS</h5>
-        <p class="card-text">My CSS code used to be a bit cumbersome but as my experience grew I quickly able to refine and reduce the lines of code and readability considerably.<br><br>I'm very familiar with flexbox and familiar with CSS grids (although I've not found something yet that hasn't been achievable in flexbox that required CSS grids). <br><br>I also love working with animations in CSS. Subtle things like hover items, navbar ease ins and click events.<br>I also built an entire revolving solar system in CSS and some other more complicated elements.</p>
+        <h5 class="card-title">CSS &amp; SCSS</h5>
+        <p class="card-text">I've learnt quickly able to refine and reduce the lines of code and readability considerably when writing CSS.<br><br>I'm very familiar with flexbox and familiar with CSS grids.  I love writing SCSS - fimiliar syntax, great nesting and very handy live reloads for VS Code. <br><br>When I appropriate I also using custom CSS animations to increase the UX. I even built an entire revolving solar system in CSS.</p>
         <p class="card-text"></p>
       </div>
       <div class="slidecontainer">
@@ -112,25 +112,20 @@
     </div>
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">SCSS</h5>
-        <p class="card-text">Love a good pre-processor! I originally started with SASS but quickly updated to SCSS for 3 reasons.
-          <ul>
-            <li>I preferred the familiar syntax to vanilla CSS</li><br>
-            <li>I love the nesting capabilities</li><br>
-            <li>The live VS code reloads are a fantastic time saver</li>
-          </ul>
+        <h5 class="card-title">Git &amp; GitHub</h5>
+        <p class="card-text">I'm familiar with using Git on the command line but much prefer using GitHubs desktop app with VS Code for ease of use.  <br><br>My own website and other client builds are hosted with a provider that has a built in Git updater which allows me to edit and update my repositories without the need for a file uploader such as CyberDuck. <br><br>VS Code - GitHub Branch - Auto update to host when pushed to main.  Reliable and trackable. 
         </p>
         <p class="card-text"></p>
       </div>
-      <p class="sliderNo">7/10</p>
+      <p class="sliderNo">5/10</p>
       <div class="slidecontainer">
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="7" class="slider" id="myRange">
+        <input class="card-img-bottom slider" type="range" min="1" max="10" value="5" class="slider" id="myRange">
       </div>
     </div>
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">JavaScript / jQuery</h5>
-        <p class="card-text">I started in with vanilla JavaScript but quickly moved onto the jQuery library which I've found great to work with. <br><br>While working with jQuery to make my sites a bit <cite>swisher</cite> I quickly got the feel and excitement and moved onto much more powerful things like APIs, nested if statements, event functions, element changes and various plugins!<br><br>Every day's a learning day.</p>
+        <p class="card-text">I started in with vanilla JavaScript but quickly moved onto the jQuery library which I've found great to work with. <br><br>While working with jQuery to make my sites a bit <cite>swisher</cite> I quickly got the feel and excitement and moved onto much more powerful things like APIs, nested if statements, event functions, element changes and various plugins!<br><br>Every day's a learning day and I LOVE learning JavaSript.</p>
         <p class="card-text"></p>
       </div>
       <div class="slidecontainer">
@@ -159,7 +154,7 @@
           <ul>
             <li>Write data to my phpMyAdmin database within my websites hosting package</li><br>
             <li>Connect to the database using Sequel Pro and PHP Code</li><br>
-            <li>Edit and add to the database using Sequel Pro</li><br>
+            <li>Edit and add to the database</li><br>
             <li>Display all or some of parts of the data on a webpage</li><br>
           </ul>
         </p>
@@ -172,13 +167,22 @@
     </div>
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">PHP &amp; WordPress</h5>
-        <p class="card-text">I'm currently teaching myself PHP and it's frameworks such as Laravel for a few reasons.
+        <h5 class="card-title">PHP, Laravel &amp; WordPress</h5>
+        <p class="card-text">I'm currently teaching myself (while building) PHP and it's frameworks such as Laravel for a few reasons.
           <ul>
             <li>To be able to work with and integrate into CMS with ease</li><br>
-            <li>Build and understand custom forms</li><br>
-            <li>Work with databases</li>
-          </ul>So far I've built various contact and order forms which send emails to clients.  I've also handed over a handful of custom sites to clients that have been fully intergrated with Wordpress - complete with various plugins for their ease and SEO optimisation.</p>
+            <li>Build and understand custom forms and user creation</li><br>
+            <li>Work with databases to push and pull data from them</li>
+          </ul><br>
+          So far with Laravel I've built a faux Instagram platform which allows people to:<br><br>
+          
+          <ul>
+            <li>Create a user account</li><br>
+            <li>Add a profile picture, title, description and URL</li><br>
+            <li>Add posts to their own profile</li><br>
+            <li>Follow other users</li>
+          </ul> 
+          <br> I've also handed over a handful of custom sites to clients that have been fully intergrated with Wordpress - complete with various plugins for their ease and SEO optimisation.</p>
         <p class="card-text"></p>
       </div>
       <div class="slidecontainer">
@@ -192,13 +196,14 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">APIs</h5>
-        <p class="card-text">I've worked with and customised a number of free and paid for APIs within JavaScript for client and personal use. These include:
+        <p class="card-text">I've worked with and customised a number of free and paid for APIs within JavaScript for client and personal use. <br><br>These include but aren't limited to:
           <ul>
             <li>Youtube API</li>
             <li>Live Weather APIs</li>
             <li>Spotify API</li>
             <li>LastFM API</li>
-            <li>Other APIs</li>
+            <li>Daily Fact API</li>
+            <li>International Space Station tracking API</li>
           </ul>
         </p>
         <p class="card-text"></p>
@@ -212,8 +217,8 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Hosting</h5>
-        <p class="card-text">To get this site and all others in my portfolio up and running properly and professionally  -  I taught myself the ins and outs of what was needed to get them online.   This included: <br>
-          <li>Uploading files to hosts server</li><br>
+        <p class="card-text">To get this site and all others in my portfolio up and running properly and professionally  -  I taught myself the ins and outs of what was needed to get them online in the most effective and efficient way.   This included: <br>
+          <li>Uploading files to hosts server.  First via CyberDuck then via Git</li><br>
           <li>Changing DNS records for domain transfers</li><br>
           <li>Changing MX records for email accounts</li><br>
           <li>Incorporating .htaccess files</li><br>
@@ -230,7 +235,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">React</h5>
-        <p class="card-text"> I see React mentioned everywhere on blogs and forums so I've started learning with an online course. I know what it does but that's as far as my knowledge extends at the moment.<br><br>My goal is to become proficient in both front and back end development culminating in becoming a full stack developer.</p>
+        <p class="card-text"> I see React mentioned everywhere on blogs and forums so I plan to start learning it soon once I increase my skill set a bit more. I know what it does but that's as far as my knowledge extends at the moment.<br><br>My goal is to become proficient in both front and back end development culminating in becoming a full stack developer.</p>
       </div>
       <div class="slidecontainer">
         <p class="sliderNo">0/10</p>
@@ -259,9 +264,9 @@
       <div class="card">
         <a href="/portfolioCineCopters.php">
           <img id="topLcard" class="card-img-top" src="/img/belfastcitycopy.jpg">
-          <h5 class="card-title">CineCopters | Drones for Film &amp; TV</h5>
+          <h5 class="card-title">CineCopters Drones</h5>
           <hr>
-          <p class="card-text">A website built with -</p>
+          <!-- <p class="card-text">A website built with -</p>
           <li>HTML</li>
           <li>SCSS</li>
           <li>Bootstrap 4</li>
@@ -269,32 +274,16 @@
           <li>APIs</li>
           <li>PHP</li> <br>
           <p>- for the biggest Film & TV drone company in Ireland. </p>
-          <p>
+          <p> -->
         </a>
       </div>
 
-      <div class="card">
-        <a href="/portfolioTrainerJo.php">
-          <img class="card-img-top" src="/img/trainerjo.png">
-          <h5 class="card-title">Trainer Jo | Power Through</h5>
-          <hr>
-          <p class="card-text">A website built with -</p>
-          <li>HTML</li>
-          <li>SCSS</li>
-          <li>Bootstrap 4</li>
-          <li>JavaScript / jQuery</li>
-          <li>PHP</li> <br>
-          <p> - for an in demand personal trainer.  The website incorporates a online video library and class calendar system.
-          </p>
-
-        </a>
-      </div>
       <div class="card">
         <a href="/portfolioEverAfter.php">
-          <img id="topRcard" class="card-img-top" src="/img/wedding.jpg">
+          <img class="card-img-top" src="/img/wedding.jpg">
           <h5 class="card-title">Ever After Films</h5>
           <hr>
-          <p class="card-text text">A designed and built for a wedding film company with -</p>
+          <!-- <p class="card-text text">A site designed and built for a wedding film company with -</p>
           <li>HTML</li>
           <li>SCSS</li>
           <li>Bootstrap 4</li>
@@ -302,10 +291,46 @@
           <li>APIs</li>
           <li>PHP</li> <br>
           <p> - for a video production company.  The website has been built and optimized for Wordpress.
-          </p>
+          </p> -->
 
         </a>
       </div>
+
+      <div class="card">
+        <a href="/portfolioFamilyGram.php">
+          <img class="card-img-top" src="/img/wedding.jpg">
+          <h5 class="card-title">Family Gram</h5>
+          <hr>
+          <!-- <p class="card-text text">A designed and built for a wedding film company with -</p>
+          <li>HTML</li>
+          <li>SCSS</li>
+          <li>Bootstrap 4</li>
+          <li>JavaScript / jQuery</li>
+          <li>APIs</li>
+          <li>PHP</li> <br>
+          <p> - for a video production company.  The website has been built and optimized for Wordpress.
+          </p> -->
+
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="/portfolioTrainerJo.php">
+          <img id="topRcard" class="card-img-top" src="/img/trainerjo.png">
+          <h5 class="card-title">Trainer Jo</h5>
+          <hr>
+          <!-- <p class="card-text">A website built with -</p>
+          <li>HTML</li>
+          <li>SCSS</li>
+          <li>Bootstrap 4</li>
+          <li>JavaScript / jQuery</li>
+          <li>PHP</li> <br>
+          <p> - for an in demand personal trainer.  The website incorporates a online video library and class calendar system.
+          </p> -->
+
+        </a>
+      </div>
+
     </div>
     <div class="card-group">
       <div class="card">
@@ -313,14 +338,14 @@
           <img id="btmLcard" class="card-img-top" src="/img/kidsGame1.jpg">
           <h5 class="card-title">Children's Game</h5>
           <hr>
-          <p class="card-text text">A children's drag and drop game built with -</p>
+          <!-- <p class="card-text text">A children's drag and drop game built with -</p>
           <li>HTML</li>
           <li>SCSS</li>
           <li>Bootstrap 4</li>
           <li>JavaScript / jQuery</li>
           <li>Touch and drag for handheld devices</li> <br>
           <p>- for my nieces!
-          </p>
+          </p> -->
         </a>
       </div>
       <div class="card">
@@ -328,14 +353,14 @@
           <img class="card-img-top" src="/img/sam avatar copy.png">
           <h5 class="card-title">SDB Developer</h5>
           <hr>
-          <p class="card-text">The website where you are now.  Built with -</p>
+          <!-- <p class="card-text">The website where you are now.  Built with -</p>
           <li>HTML</li>
           <li>SCSS</li>
           <li>Bootstrap 4</li>
           <li>JavaScript / jQuery</li>
           <li>PHP</li> <br>
           <p>- for a developer called Sam to show you what he can do!
-          </p>
+          </p> -->
         </a>
       </div>
       <div class="card">
@@ -343,19 +368,19 @@
           <img id="" class="card-img-top" src="/img/pong.png">
           <h5 class="card-title">Pong Game</h5>
           <hr>
-          <p class="card-text text">A Javascript Pong game I built with the help of a tutorial which I've customised and intergrated into the first page of my website. </p>
+          <!-- <p class="card-text text">A Javascript Pong game I built with the help of a tutorial which I've customised and intergrated into the first page of my website. </p>
           <li>HTML</li>
           <li>SCSS</li>
           <li>Bootstrap 4</li>
-          <li>JavaScript</li>
+          <li>JavaScript</li> -->
         </a>
       </div>
       <div class="card">
         <a href="/smartMirror.php">
           <img id="btmRcard" class="card-img-top" src="/img/smartmirror/IMG_2296-min.jpg">
-          <h5 class="card-title">Custom Smart Mirror</h5>
+          <h5 class="card-title">Smart Mirror</h5>
           <hr>
-          <p class="card-text text">A custom smart mirror I built with - </p>
+          <!-- <p class="card-text text">A custom smart mirror I built with - </p>
           <li>HTML</li>
           <li>SCSS</li>
           <li>Bootstrap 4</li>
@@ -365,7 +390,7 @@
           <li>Raspberry Pi</li>
           <br>
           <p> - A mirror when off - a display when on.
-          </p>
+          </p> -->
         </a>
       </div>
     </div>

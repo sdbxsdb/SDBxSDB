@@ -8,7 +8,7 @@
               <h1>Sam Donaghy-Bell   |  SDB Developer</h1>
             </div>
             <div id="text">
-              <p>You're waiting for a train, a train that will take you far away.   You know where you hope this train will take you, but you don't know for sure... <div id="spinner"></div><br><br>A bit of website inception going on here!   This site was created as a CV / personal CodePen website to showcase me and what I can do.   Made with HTML5, PHP, Bootstrap 4, SCSS and JavaScript/jQuery.   It's been built as a single page site bar the portfolio pages (where you are now) and the contact submission thanks page.</p> 
+              <p>You're waiting for a train, a train that will take you far away.   You know where you hope this train will take you, but you don't know for sure... <div id="spinner"></div><br><br>A bit of site inception here!   This site was created as a CV / personal CodePen website to showcase me and what I can do.   Made with HTML5, PHP, Bootstrap 4, SCSS and JavaScript/jQuery.   It's been built as a single page site bar the portfolio pages (where you are now) and the contact submission thanks page.</p> 
               <br>
               <p class="layoutWarning"><small><cite>*Please note that layout of website in the pane below may not be true if viewed on a mobile device due to the viewer window being too small.</cite></small></p> 
             </img>
