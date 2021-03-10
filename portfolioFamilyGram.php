@@ -6,28 +6,21 @@
         <div class="container">
           <div id="header">
             <div id="title">
-              <h1>EverAfter Films</h1>
+              <h1>Family Gram</h1>
             </div>
             <div id="text">
-              <p>A website designed and built for a wedding filming company client for use in Wordpress.  <br>I looked after everything from domain transfers, Gmail use with custom email and social media linkage customization.  <br><br>Built using HTML 5, PHP, SCSS, Bootstrap 4, JavaScript, Jquery and then optimized for use within Wordpress so the client can change headings, text, images and add as many FAQ tabs as they like. The site contains: 
+              <p>This is an Instagram style platform I built using PHP Laravel.  With all the lockdowns and not being able to see family I came up with the idea of creating this website to allow my to stay up to date with each other.<br><br>It's been a great way for older relatives who don't have any form of social media to see photos of weddings, babies, pets etc.<br><br> It's a simply idea which allows family members to:
                 <ul class="listElements">
-                  <li>PHP fuctions to create custom posts</li>
-                  <li>Loading page with animations</li>
-                  <li>Retractable navbar and top logo on scroll</li>
-                  <li>YouTube API Hero Video</li>
-                  <li>Page position anchors</li>
-                  <li>Optimized as much as possible for speed</li>
-                  <li>Smooth scroll & Back to top</li>
-                  <li>Videos within modals</li>
-                  <li>Accordion menus</li>
-                  <li>Text alteration depending on screen size</li>
-                  <li>Contact submission forms with validation</li>
-                  <li>Autoplay header video</li>
-                  <li>Fully responsive from 2560x1080 all the way down to iPhone 5</li>
-                  <li>Tappable numbers and emails for handheld devices</li>
-                  <li>and more</li>
+                  <li>Create a user (they get a welcome email upon registering)</li>
+                  <li>Edit and add a profile picture, title, description and URL</li>
+                  <li>Upload a post with caption</li>
+                  <li>Follow and unfollow users</li>
+                  <li>Visits other users profiles</li>
+                  <li>Shows a newsfeed of their followed users posts</li>
+                <br><br>
+                At the moment it's a personal family platform but with a bit more work and refinement I would plan to make it accessable to the public and allow each family to only view their own "bubble".
                 </ul><br>
-              <strong>Link to the full site <a href="https://www.everafterfilmsni.com/">here.</a></strong>
+              <strong>Link to the full site <a href="#">here.</a></strong>
               <br><br>
               <p class="layoutWarning"><small><cite>*Please note that layout of website in the pane below may not be true if viewed on a mobile device due to the viewer window being too small.</cite></small></p>
               </p>  
@@ -81,7 +74,6 @@
           <div class="tab-pane active" id="tab1" role="tabpanel">
             <?php include ("includes/EAhomeCode.php") ?>
           </div>
-
           
 
           <div class="tab-pane" id="tab7" role="tabpanel">
@@ -91,7 +83,8 @@
       </div>
     </div>
     <div class="tab-pane active" id="websiteTab" role="tabpanel">
-      <iframe src="https://www.everafterfilmsni.com/" frameborder="0"></iframe>
+      <p>Upload in progress</p>
+      <iframe src="" frameborder="0"></iframe>
     </div>
 
     <div class="tab-pane" id="cssCode" role="tabpanel">
