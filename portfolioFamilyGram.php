@@ -9,7 +9,7 @@
               <h1>Family Gram</h1>
             </div>
             <div id="text">
-              <p>This is an Instagram style platform I built using PHP Laravel.  With all the lockdowns and not being able to see family I came up with the idea of creating this website to allow my to stay up to date with each other.<br><br>It's been a great way for older relatives who don't have any form of social media to see photos of weddings, babies, pets etc.<br><br> It's a simply idea which allows family members to:
+              <p>This is an Instagram style platform I built using PHP Laravel.  With all the lockdowns and not being able to see family I came up with the idea of creating this website to allow my to stay up to date with each other.<br><br>It's been a great way for older relatives who don't have any form of social media to see photos of weddings, babies, pets etc.<br><br> It's a simple idea which allows family members to:
                 <ul class="listElements">
                   <li>Create a user (they get a welcome email upon registering)</li>
                   <li>Edit and add a profile picture, title, description and URL</li>
@@ -18,9 +18,9 @@
                   <li>Visits other users profiles</li>
                   <li>Shows a newsfeed of their followed users posts</li>
                 <br><br>
-                At the moment it's a personal family platform but with a bit more work and refinement I would plan to make it accessable to the public and allow each family to only view their own "bubble".
+                At the moment it's a personal family platform but with a bit more work and refinement I would plan to make it accessable to the public and allow each family to only view and work within their own "bubble".
                 </ul><br>
-              <strong>Link to the full site <a href="#">here.</a></strong>
+
               <br><br>
               <p class="layoutWarning"><small><cite>*Please note that layout of website in the pane below may not be true if viewed on a mobile device due to the viewer window being too small.</cite></small></p>
               </p>  
@@ -44,9 +44,6 @@
       <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#jsCode" aria-controls="jsCode" role="tab">JavaScript</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#phpCode" aria-controls="phpCode" role="tab">Contact Submission Form PHP</a>
-      </li>
     </ul>
   </div>
   <div id="tabContent" class="tab-content">
@@ -68,40 +65,46 @@
         <div class="tab-content">
 
         <div class="tab-pane active" id="tab0" role="tabpanel">
-            <?php include ("includes/EAheadernavCode.php") ?>
+            <?php include ("") ?>
+            <p>Work in progress</p>
           </div>
 
           <div class="tab-pane active" id="tab1" role="tabpanel">
-            <?php include ("includes/EAhomeCode.php") ?>
+            <?php include ("") ?>
+            <p>Work in progress</p>
           </div>
           
 
           <div class="tab-pane" id="tab7" role="tabpanel">
-            <?php include ("includes/EAfooterCode.php") ?>
+            <?php include ("") ?>
+            <p>Work in progress</p>
           </div>
         </div>
       </div>
     </div>
     <div class="tab-pane active" id="websiteTab" role="tabpanel">
-      <p>Upload in progress</p>
+      <p>Work in progress</p>
       <iframe src="" frameborder="0"></iframe>
     </div>
 
     <div class="tab-pane" id="cssCode" role="tabpanel">
       <code>
-        <?php include ("includes/EAcssCode.php") ?>
+      <p>Work in progress</p>
+        <?php include ("") ?>
       </code>
     </div>
 
     <div class="tab-pane" id="jsCode" role="tabpanel">
       <code>
-        <?php include ("includes/EAjsCode.php") ?>
+      <p>Work in progress</p>
+        <?php include ("") ?>
       </code>
     </div>
 
     <div class="tab-pane" id="phpCode" role="tabpanel">
       <code>
-        <?php include ("includes/EAthanksPHP.php") ?>
+      <p>Work in progress</p>
+        <?php include ("") ?>
       </code>
     </div>
 
