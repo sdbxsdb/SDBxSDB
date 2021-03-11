@@ -9,7 +9,7 @@
         <h1>FamGram</h1>
       </div>
       <div id="text">
-        <p>With all the lockdowns and not being able to see family I came up with the idea of creating this website to allow my family to stay up to date with each other. It's an Instagram style platform I built using PHP Laravel. I used the command line to install and use:
+        <p>With all the lockdowns and not being able to see family I came up with the idea of creating this website - Family Instagram or FamGram - to allow my family to stay up to date with each other. It's an Instagram style platform I built using PHP Laravel. I used the command line to install and use:
         <ul>
           <li>HomeBrew</li>
           <li>Composer</li>
