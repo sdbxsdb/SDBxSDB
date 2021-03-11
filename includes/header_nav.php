@@ -72,7 +72,7 @@
                         <a id="viewAll" class="dropdown-item" href="/home.php#portfolioAnchor">View All</a>
                         <a class="dropdown-item" href="/portfolioCineCopters.php">CineCopters</a>
                         <a class="dropdown-item" href="/portfolioEverAfter.php">Ever After Films</a>
-                        <a class="dropdown-item" href="/portfolioFamilyGram.php">Family Gram</a>
+                        <a class="dropdown-item" href="/portfolioFamilyGram.php">FamGram</a>
                         <a class="dropdown-item" href="/portfolioTrainerJo.php">Trainer Jo</a>
                         <a class="dropdown-item" href="/portfolioKidsGame.php">Childrens Game</a>
                         <a class="dropdown-item" href="/portfolioSDB.php">SDBxSDB </a>
