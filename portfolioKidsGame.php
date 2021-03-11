@@ -12,6 +12,12 @@
         <br><br>
         <p class="layoutWarning"><small><cite>*Please note that layout of game in the pane below may not be true if viewed on a mobile device due to the viewer window being too small.</cite></small></p>
       </div>
+      <a href="https://github.com/sdbxsdb/Kids-Game" target="_blank"><i class="fab fa-github" style="font-size: 40px;"></i></a>
+      <div>
+        <strong>Link to the full code <a href="https://github.com/sdbxsdb/Kids-Game" target="_blank">here.</a></strong>
+      </div>
+      <br>
+      <strong>Link to the full site <a href="https://sdbkidsgame.xyz/" target="_blank">here.</a></strong>
     </div>
   </div>
 

@@ -19,8 +19,14 @@
               <br>
               <p>A nice feature I implemented was that when there is music playing the news is muted and when there's no music the news is unmuted.</p>
             </div>
+            <a href="https://github.com/sdbxsdb/Smart-Mirror" target="_blank"><i class="fab fa-github" style="font-size: 40px;"></i></a>
+        <div>
+          <strong>Link to the full code <a href="https://github.com/sdbxsdb/Smart-Mirror" target="_blank">here.</a></strong>
+        </div>
+        <br>
           </div>
         </div>
+        
 
 <div class="container" id="code">
   <div class="">
