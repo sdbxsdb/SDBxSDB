@@ -62,19 +62,19 @@
           <div class="">
             <ul class="nav nav-tabs" id="innerTab" role="tablist">
               <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#tab0" aria-controls="tab0" role="tab" aria-expanded="true">index.blade Example</a>
+                <a class="nav-link active" data-toggle="tab" href="#tab0" aria-controls="tab0" role="tab" aria-expanded="true">index.blade</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab1" aria-controls="tab1" role="tab" aria-expanded="true">create.blade Example</a>
+                <a class="nav-link" data-toggle="tab" href="#tab1" aria-controls="tab1" role="tab" aria-expanded="true">create.blade</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab2" aria-controls="tab2" role="tab" aria-expanded="true">show.blade Example</a>
+                <a class="nav-link" data-toggle="tab" href="#tab2" aria-controls="tab2" role="tab" aria-expanded="true">show.blade</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab3" aria-controls="tab3" role="tab" aria-expanded="true">Controller Example</a>
+                <a class="nav-link" data-toggle="tab" href="#tab3" aria-controls="tab3" role="tab" aria-expanded="true">Controller</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab4" aria-controls="tab4" role="tab" aria-expanded="true">Routes Example</a>
+                <a class="nav-link" data-toggle="tab" href="#tab4" aria-controls="tab4" role="tab" aria-expanded="true">Routes</a>
               </li>
 
             </ul>

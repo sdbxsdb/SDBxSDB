@@ -504,6 +504,10 @@ nav {
   line-height: 26px;
 }
 
+#portfolioPageTemplate ul {
+  padding: 0;
+}
+
 #portfolioPageTemplate .btn:focus, #portfolioPageTemplate .btn:active, #portfolioPageTemplate button:focus, #portfolioPageTemplate button:active {
   outline: none !important;
   -webkit-box-shadow: none !important;
