@@ -182,7 +182,7 @@ nav {
 
 @media only screen and (max-width: 767px) {
   #home #headerBg {
-    height: 150px;
+    height: 200px;
     margin-top: 20px;
   }
 }
@@ -232,6 +232,12 @@ nav {
   }
 }
 
+@media only screen and (max-width: 414px) {
+  #home #aboutMe #aboutBounceBtn {
+    bottom: -40px;
+  }
+}
+
 #home #aboutMe .arrow:hover {
   cursor: pointer;
 }
@@ -276,7 +282,7 @@ nav {
   background-size: 100%;
   -webkit-box-shadow: inset 400px 400px 400px 400px rgba(0, 183, 255, 0.678);
           box-shadow: inset 400px 400px 400px 400px rgba(0, 183, 255, 0.678);
-  height: 600px;
+  height: 680px;
   padding: 20px;
   text-align: center;
   margin-bottom: 40px;
@@ -284,24 +290,37 @@ nav {
   margin-left: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 989px) {
   #home #aboutMe #aboutMeWrapper {
     padding: 0;
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #home #aboutMe #aboutMeWrapper {
+    height: 900px;
+  }
+}
+
+@media only screen and (max-width: 538px) {
+  #home #aboutMe #aboutMeWrapper {
+    height: 1000px;
   }
 }
 
 @media only screen and (max-width: 414px) {
   #home #aboutMe #aboutMeWrapper {
-    height: 980px;
+    height: 1080px;
     padding-top: 0;
   }
 }
 
 #home #aboutMe #aboutMeWrapper #aboutMeTitle {
-  margin-bottom: 40px;
+  margin-top: 50px;
 }
 
-@media only screen and (max-width: 557px) {
+@media only screen and (max-width: 414px) {
   #home #aboutMe #aboutMeWrapper #aboutMeTitle {
     margin-top: -100px;
   }
@@ -505,7 +524,7 @@ nav {
 }
 
 #portfolioPageTemplate ul {
-  padding: 0;
+  padding: 0 !important;
 }
 
 #portfolioPageTemplate .btn:focus, #portfolioPageTemplate .btn:active, #portfolioPageTemplate button:focus, #portfolioPageTemplate button:active {
