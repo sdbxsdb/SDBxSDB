@@ -149,7 +149,7 @@ nav {
 
 #footer {
   background-color: #00b7ff;
-  color: white;
+  color: #191919;
   height: 100px;
   width: 100%;
   text-align: center;
@@ -159,7 +159,7 @@ nav {
 
 #footer a {
   text-decoration: none;
-  color: white;
+  color: #191919;
 }
 
 #heart {

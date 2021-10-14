@@ -1,6 +1,7 @@
 
 $grey: rgb(68, 76, 97);
 $blue: rgb(0, 183, 255);
+$black: #191919;
 
 
 
@@ -157,11 +158,11 @@ nav {
 
     a {
       text-decoration: none;
-      color: white;
+      color: $black;
     }
 
     background-color: $blue;
-    color: white;
+    color: $black;
     height: 100px;
     width: 100%;
     text-align: center;

@@ -1,3 +1,13 @@
+//DARK MODE TOGGLE
+const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', ()=>{
+  console.log("changed");
+  $(".darkModebody").toggleClass("light-mode-body");
+  $(".darkModeText").toggleClass("light-mode-text");
+});
+
+
 
 //TAKES YOU TO AN ID ANCHOR ON EACH PAGE
 $("#aboutMe").click(function() {
