@@ -1,6 +1,6 @@
 <?php include("includes/holdingPageHeader.php") ?>
 
-<body>
+<body class="darkModeBody">
 
   <section id="gamePageWrapper" class="darkModeBody">
 

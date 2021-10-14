@@ -1,5 +1,7 @@
 body {
   background-color: #191919;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 a {
@@ -41,7 +43,7 @@ a {
   height: 50px;
   font-size: 32px;
   border-radius: 100%;
-  background-color: #00b7ff;
+  background-color: #087ead;
   line-height: 20px;
   opacity: 0;
   -webkit-transition: opacity 2s;
@@ -82,7 +84,7 @@ a {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #00b7ff;
+  color: #087ead;
 }
 
 @media only screen and (max-width: 767px) {
@@ -92,7 +94,7 @@ a {
     top: 104px;
     position: absolute;
     text-align: center;
-    background-color: #00b7ff;
+    background-color: #087ead;
     border-radius: 0 0 10px 10px;
   }
 }
@@ -100,7 +102,7 @@ a {
 nav {
   background-color: #191919;
   height: 97px;
-  border-bottom: solid 3px #FDFDFD;
+  border-bottom: solid 3px #087ead;
 }
 
 @media only screen and (max-width: 767px) {
@@ -134,7 +136,7 @@ nav {
 #portfolioDropdown .dropdown-item:hover {
   background-color: #FDFDFD;
   width: 100%;
-  color: #00b7ff;
+  color: #087ead;
   border-radius: 5px;
 }
 
@@ -168,7 +170,7 @@ nav {
 }
 
 #footer {
-  background-color: #00b7ff;
+  background-color: #087ead;
   color: #191919;
   height: 100px;
   width: 100%;
@@ -217,19 +219,29 @@ nav {
 
 #home #headerBg a {
   text-decoration: none;
-  color: #00b7ff;
+  color: #087ead;
 }
 
 #home #headerBg a:hover {
   color: #afafaf;
 }
 
+#home #aboutMe {
+  text-align: left;
+  font-weight: 200;
+}
+
 #home #aboutMe #mirrorIntroLink {
   color: white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #home #aboutMe #aboutMeText {
   font-size: 1.1em;
+  color: #FDFDFD;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #home #aboutMe .arrow {
@@ -243,7 +255,7 @@ nav {
 }
 
 #home #aboutMe #aboutBounceBtn {
-  bottom: -100px;
+  bottom: -140px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -278,7 +290,6 @@ nav {
   background-color: white;
   border-radius: 100%;
   position: relative;
-  top: -80px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -297,19 +308,16 @@ nav {
 }
 
 #home #aboutMe #aboutMeWrapper {
-  text-shadow: 0px 0px 35px  white;
-  background-color: #00b7ff;
-  background-image: url(/img/brickBg.jpg);
+  font-size: 20px;
+  color: #FDFDFD;
+  background-color: #191919;
   background-attachment: fixed;
   background-size: 100%;
-  -webkit-box-shadow: inset 400px 400px 400px 400px rgba(0, 183, 255, 0.678);
-          box-shadow: inset 400px 400px 400px 400px rgba(0, 183, 255, 0.678);
-  height: 680px;
   padding: 20px;
   text-align: center;
-  margin-bottom: 40px;
-  margin-right: 0;
-  margin-left: 0;
+  margin: 120px 0 220px 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 @media only screen and (max-width: 989px) {
@@ -340,6 +348,8 @@ nav {
 
 #home #aboutMe #aboutMeWrapper #aboutMeTitle {
   margin-top: 50px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 @media only screen and (max-width: 414px) {
@@ -355,11 +365,28 @@ nav {
   pointer-events: visible;
 }
 
+#home .skillsLogo {
+  width: 100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #home .slider {
   -webkit-appearance: none;
   width: 100%;
   height: 25px;
-  background: #00b7ff;
+  background: #087ead;
   outline: none;
   opacity: 1;
   -webkit-transition: .2s;
@@ -373,7 +400,6 @@ nav {
           appearance: none;
   width: 25px;
   height: 25px;
-  background-image: url(/img/samavatarnobgcopy.png);
   background-size: 100%;
 }
 
@@ -383,15 +409,51 @@ nav {
 }
 
 #home #skills .card {
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: #191919;
+  color: #FDFDFD;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(52, 165, 240, 0.2);
+          box-shadow: 0px 0px 15px 0px rgba(52, 165, 240, 0.2);
   margin-top: 40px;
+  min-height: 320px;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 767px) {
   #home #skills .card {
     min-width: 200px;
   }
+}
+
+#home #skills .card-title {
+  position: absolute;
+  top: 10%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#home #skills .skillsText {
+  position: relative;
+  left: -350px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#home #skills .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #home #skills .sliderNo {
@@ -503,7 +565,7 @@ nav {
 }
 
 #home #contact {
-  background-color: #00b7ff;
+  background-color: #087ead;
   border-radius: 10px;
   text-align: center;
   margin-top: 200px;
@@ -564,7 +626,7 @@ nav {
 }
 
 #portfolioPageTemplate #image-gallery .modal-footer button {
-  background-color: #00b7ff;
+  background-color: #087ead;
 }
 
 #portfolioPageTemplate .row {
@@ -861,5 +923,17 @@ nav {
   opacity: 1;
   -webkit-transform: translate(2em, 0.2em) rotate(-15deg);
           transform: translate(2em, 0.2em) rotate(-15deg);
+}
+
+.hide {
+  right: -280px !important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.show {
+  left: 0px !important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 /*# sourceMappingURL=generic.css.map */

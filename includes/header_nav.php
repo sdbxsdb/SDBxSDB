@@ -36,7 +36,7 @@
 
 </head>
 
-<body>
+<body class="darkModeBody">
 
   <section id="home">
 
@@ -62,7 +62,7 @@
         <div id="navbarRhs">
           <div class="collapse navbar-collapse justify-content-end" id="navbarItems">
             <div class="navbar-nav">
-              <a href="/home.php" class="nav-item nav-link active">Home</a>
+              <!--<a href="/home.php" class="nav-item nav-link active">Home</a>-->
 
               <a id="aboutMe" href="/home.php#aboutMeAnchor" class="nav-item nav-link">About Me</a>
 

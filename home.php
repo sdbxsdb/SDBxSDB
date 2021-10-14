@@ -3,7 +3,7 @@
 
 <!--WELCOME-->
 
-<div id="headerBg">
+<!--<div id="headerBg">
   <div class="container" id="header">
     <div id="headingTitle">
       <h1>Welcome!</h1>
@@ -11,35 +11,43 @@
     <div id="headingText">My name is Sam and I'd like to take a minute, just sit right there and I'll tell you... a little about myself and show you some of my work!</p><small>(If you didn't sing the theme from Fresh Prince there please <a href="https://www.youtube.com/watch?v=1nCqRmx3Dnw" target="_blank">educate</a> yourself and return at a later date..) </small>
     </div>
   </div>
-</div>
+</div>-->
 
 <!--/WELCOME-->
 
 <!--ABOUT ME-->
 
-<div id="aboutMe">
+<div id="aboutMe" class="">
 
-  <div id="aboutLogoWrapper" class="container ">
-    <img id="aboutLogo" src="/img/sam avatar no bg.png" width="150px" alt="SDB logo" />
+  <div id="aboutLogoWrapper" class="container">
 
     <div id="aboutMeAnchor"></div>
     <!--ABOUT ANCHOR TAG-->
 
   </div>
 
-  <div id="aboutMeWrapper" class="row align-items-center">
+  <div id="aboutMeWrapper" class="row align-items-center darkModeBody">
     <div class="container" id="aboutMe">
 
-      <div id="aboutMeTitle" class="col-12">
-        <h3>Who am I?</h3>
+      <div id="aboutMeTitle" class="col-12 darkModeText">
+        <h2>Who am I?</h2>
       </div>
 
-      <div id="aboutMeText" class="col-12">
-        <p><strong>In short -</strong> I’m an ex-feature film & TV camera technician / engineer of 12 years turned self-taught developer. <br><br><strong>In long -</strong> I’m relatively new to the development world in a full time capacity but tech and code has always interested me and it’s always been some part of my life.  For example, when I first saw a <a id="mirrorIntroLink" href="/smartMirror.php">“smart mirror”</a> many years ago I knew that I wanted one build one.  So I taught myself how, for fun.
+      <div id="aboutMeText" class="col-12 darkModeText">
+        <p>I’m a former film & TV drama camera engineer of 12 years turned self-taught developer. <br><br>
+        
+        <h2>TL;DR</h2> This is my personal site where I'll share my skills, thoughts and ambitions. <br><br> I currently work as a Jr. Dev at Reflex Studios in Belfast.    I started at Reflex with 8 months of coding experience and since then I've been able to grow my skillset exponentially.  <br><br>
+        
+        I’m an extremely driven person and a fast learner with a "challenge accepted" approach to anything I don't know how to do.   I find I learn new skills most efficiently when coding real world solutions for real world problems.    <br><br> 
+        
+        I also code for fun and for personal projects.   For example, when I first saw a <a id="mirrorIntroLink" href="/smartMirror.php" class="darkModeText">“smart mirror”</a> many years ago I knew that I wanted one build one of my own.  So I did.
           <br><br>
-          I’m an extremely driven person and approach anything I can’t do as “challenge accepted”.  I believe this, amongst other qualities is what made me able to rise through the ranks at double the pace to normal in my previous job.
+
           <br><br>
           I love a challenge, mental or otherwise and firmly believe it’s a sad day when you don’t learn something new.   Because of this I’m always looking to expand my knowledge in languages and tools etc (both back and front end) while refining the skills I already have to get as close to perfection as possible. <br><br>My goal is to become proficient in both front and back end development culminating in becoming a full stack developer.
+
+          <br><br>
+          If you have any questions or would like to get in touch I'd love to hear from you!
         </p>
         <div id="aboutBounceBtn" class="arrow bounce"><i class="fa fa-angle-down fa-3x" aria-hidden="true"></i></div>
         <!-- <div>
@@ -58,188 +66,158 @@
 <div id="skills" class="container">
 
   <div class="card-deck">
-    <div class="card">
+
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">HTML</h5>
-        <p class="card-text">I got stuck into html from my days in tech building very simple websites with the now obsolete Dreamweaver. <br><br>Since then, all HTML 5. I'm also very confident in VS Code utilising many extensions and I've touched onto Apple XCode.</p>
-        <p class="card-text"></p>
-      </div>
-      <p class="sliderNo">8/10</p>
-      <div class="slidecontainer">
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="9" class="slider" id="myRange">
+        <div class="skillsLogo">
+          <img src="html5logo.png" alt="" class="" width="100px">
+        </div>
+        <p class="card-text skillsText">I built my first website using zero bootstrap, my second using Bootstrap3, the third using BS4.  <br><br>I love using Bootstrap for some elements when it's simpler to do so but I usually prefer to build Bootstrap style elements from scratch.<br><br> I like to have as much control over elements as possible without the need for important tags.</p>
       </div>
     </div>
-    <div class="card">
+
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">Bootstrap</h5>
-        <p class="card-text">I built my first website using zero bootstrap, my second using Bootstrap3, the third using BS4.  <br><br>I love using Bootstrap for some elements when it's simpler to do so but I usually prefer to build Bootstrap style elements from scratch.<br><br> I like to have as much control over elements as possible without the need for important tags.</p>
-        <p class="card-text"></p>
-      </div>
-      <div class="slidecontainer">
-        <p class="sliderNo">7/10</p>
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="7" class="slider" id="myRange">
+        <div class="skillsLogo">
+          <img src="bootstrapLogo.png" alt="" class="" width="100px">
+          <img src="tailwindLogo.png" alt="" class="" width="100px">
+        </div>
+        
+        <p class="card-text skillsText">I built my first website using zero bootstrap, my second using Bootstrap3, the third using BS4.  <br><br>I love using Bootstrap for some elements when it's simpler to do so but I usually prefer to build Bootstrap style elements from scratch.<br><br> I like to have as much control over elements as possible without the need for important tags.</p>
       </div>
     </div>
-    <div class="card">
+
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">Design Translation</h5>
-        <p class="card-text">I have experience in translating designs from various programs such as
-          <ul>
-            <li>Sketch</li>
-            <li>Figma</li>
-            <li>Zeplin</li>
-          </ul>With no real preference I can jump between each one with ease.</p>
-        <p class="card-text"></p>
-      </div>
-      <p class="sliderNo">8/10</p>
-      <div class="slidecontainer">
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="8">
+        <div class="skillsLogo">
+          <img src="figmaLogo.png" alt="" class="" width="80px">
+          <img src="sketchLogo.png" alt="" class="" width="100px">
+        </div>
+        <p class="card-text skillsText">I have experience in translating designs from various programs such as - <br>
+        - Figma <br>
+        - Sketch <br>
+        - Zeplin <br>
+        With no real preference I can jump between each one with ease.</p>
       </div>
     </div>
   </div>
 
   <div class="card-deck">
-    <div class="card">
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">CSS &amp; SCSS</h5>
-        <p class="card-text">I've learnt quickly able to refine and reduce the lines of code and readability considerably when writing CSS.<br><br>I'm very familiar with flexbox and familiar with CSS grids.  I love writing SCSS - familiar syntax, great nesting and very handy live reloads for VS Code. <br><br>When I appropriate I also using custom CSS animations to increase the UX. I even built an entire revolving solar system in CSS.</p>
+        <div class="skillsLogo">
+          <img src="sassLogo.png" alt="" class="" width="80px">
+          <img src="cssLogo.png" alt="" class="" width="80px">
+        </div>
+        <p class="card-text skillsText">I've learnt quickly able to refine and reduce the lines of code and readability considerably when writing CSS.<br><br>I'm very familiar with flexbox and familiar with CSS grids. I love writing SCSS - familiar syntax, great nesting and very handy live reloads for VS Code. <br><br>When I appropriate I also using custom CSS animations to increase the UX. I even built an entire revolving solar system in CSS.</p>
         <p class="card-text"></p>
       </div>
-      <div class="slidecontainer">
-        <p class="sliderNo">8/10</p>
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="8" class="slider" id="myRange">
-      </div>
     </div>
-    <div class="card">
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">Git &amp; GitHub</h5>
-        <p class="card-text">I'm familiar with using Git on the command line but much prefer using GitHubs desktop app with VS Code for ease of use.  <br><br>My own website and other client builds are hosted with a provider that has a built in Git updater which allows me to edit and update my repositories without the need for a file uploader such as CyberDuck. <br><br>VS Code - GitHub Branch - Auto update to host when pushed to main.  Reliable and trackable. 
+        <div class="skillsLogo">
+          <img src="itermLogo.png" alt="" class="" width="80px">
+          <img src="githubLogo.png" alt="" class="" width="100px">
+        </div>
+        <p class="card-text skillsText">I'm familiar with using Git on the command line but much prefer using GitHubs desktop app with VS Code for ease of use. <br><br>My own website and other client builds are hosted with a provider that has a built in Git updater which allows me to edit and update my repositories without the need for a file uploader such as CyberDuck. <br><br>VS Code - GitHub Branch - Auto update to host when pushed to main. Reliable and trackable.
         </p>
-        <p class="card-text"></p>
+        
       </div>
-      <p class="sliderNo">5/10</p>
-      <div class="slidecontainer">
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="5" class="slider" id="myRange">
-      </div>
+      
+      
     </div>
-    <div class="card">
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">JavaScript / jQuery</h5>
-        <p class="card-text">I started in with vanilla JavaScript but quickly moved onto the jQuery library which I've found great to work with. <br><br>While working with jQuery to make my sites a bit <cite>swisher</cite> I quickly got the feel and excitement and moved onto much more powerful things like APIs, nested if statements, event functions, element changes and various plugins!<br><br>Every day's a learning day and I LOVE learning JavaSript.</p>
-        <p class="card-text"></p>
+        <div class="skillsLogo">
+          <img src="jsLogo.png" alt="" class="" width="80px">
+          <img src="jqueryLogo.png" alt="" class="" width="100px">
+        </div>
+        <p class="card-text skillsText">I started in with vanilla JavaScript but quickly moved onto the jQuery library which I've found great to work with. <br><br>While working with jQuery to make my sites a bit <cite>swisher</cite> I quickly got the feel and excitement and moved onto much more powerful things like APIs, nested if statements, event functions, element changes and various plugins!<br><br>Every day's a learning day and I LOVE learning JavaSript.</p>
+        
       </div>
-      <div class="slidecontainer">
-        <p class="sliderNo">5/10</p>
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="5" class="slider" id="myRange">
-      </div>
+      
     </div>
   </div>
 
   <div class="card-deck">
-    <div class="card">
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">Adobe Creative Suite</h5>
-        <p class="card-text">I started creating & manipulating with photoshop back in the CS2 days (10 years ago!). I've grown and updated my skills with every version since. <br><br> I'm also extremely well versed in Pr and AE.</p>
-        <p class="card-text"></p>
-      </div>
-      <div class="slidecontainer">
-        <p class="sliderNo">10/10</p>
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="10" class="slider" id="myRange">
+        <div class="skillsLogo">
+          <img src="adobeLogo.png" alt="" class="" width="100px">
+        </div>
+        <p class="card-text skillsText">I started creating & manipulating with photoshop back in the CS2 days (10 years ago!). I've grown and updated my skills with every version since. <br><br> I'm also extremely well versed in Pr and AE.</p>
       </div>
     </div>
-    <div class="card">
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">SQL</h5>
-        <p class="card-text">I've started teaching myself MySQL. I've always found the backend database side of programming fascinating. It seems to be very close to what I'm already used to.<br><br>So far I'm able to:
-          <ul>
-            <li>Write data to my phpMyAdmin database within my websites hosting package</li><br>
-            <li>Connect to the database using Sequel Pro and PHP Code</li><br>
-            <li>Edit and add to the database</li><br>
-            <li>Display all or some of parts of the data on a webpage</li><br>
-          </ul>
+      <!--<h5 class="card-title">CMS</h5>-->
+        <div class="skillsLogo">
+          <img src="statamicLogo.png" alt="" class="" width="100px">
+        </div>
+        <p class="card-text skillsText">I've started teaching myself MySQL. I've always found the backend database side of programming fascinating. It seems to be very close to what I'm already used to.<br><br>So far I'm able to:
+        
         </p>
-        <p class="card-text"></p>
+        
       </div>
-      <div class="slidecontainer">
-        <p class="sliderNo">2/10</p>
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="2" class="slider" id="myRange">
-      </div>
+      
     </div>
-    <div class="card">
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">PHP, Laravel &amp; WordPress</h5>
-        <p class="card-text">I'm currently teaching myself (while building) PHP and it's frameworks such as Laravel for a few reasons.
-          <ul>
-            <li>To be able to work with and integrate into CMS with ease</li><br>
-            <li>Build and understand custom forms and user creation</li><br>
-            <li>Work with databases to push and pull data from them</li>
-          </ul><br>
-          So far with Laravel I've built a faux Instagram platform which allows people to:<br><br>
-          
-          <ul>
-            <li>Create a user account</li><br>
-            <li>Add a profile picture, title, description and URL</li><br>
-            <li>Add posts to their own profile</li><br>
-            <li>Follow other users</li>
-          </ul> 
-          <br> I've also handed over a handful of custom sites to clients that have been fully intergrated with Wordpress - complete with various plugins for their ease and SEO optimisation.</p>
-        <p class="card-text"></p>
+        <div class="skillsLogo">
+          <img src="snipcartLogo.png" alt="" class="" width="100px">
+          <img src="shopifyLogo.png" alt="" class="" width="100px">
+        </div>
+        <p class="card-text skillsText">I'm currently teaching myself (while building) PHP and it's frameworks such as Laravel for a few reasons.
+        <br>
+        So far with Laravel I've built a faux Instagram platform which allows people to:<br><br>
+        </p>
+        
       </div>
-      <div class="slidecontainer">
-        <p class="sliderNo">4/10</p>
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="4" class="slider" id="myRange">
-      </div>
+      
     </div>
   </div>
 
   <div class="card-deck">
-    <div class="card">
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">APIs</h5>
-        <p class="card-text">I've worked with and customised a number of free and paid for APIs within JavaScript for client and personal use. <br><br>These include but aren't limited to:
-          <ul>
-            <li>Youtube API</li>
-            <li>Live Weather APIs</li>
-            <li>Spotify API</li>
-            <li>LastFM API</li>
-            <li>Daily Fact API</li>
-            <li>International Space Station tracking API</li>
-          </ul>
+        <div class="skillsLogo">
+          <img src="apiLogo.png" alt="" class="" width="110px">
+        </div>
+        <p class="card-text skillsText">I've worked with and customised a number of free and paid for APIs within JavaScript for client and personal use. <br><br>These include but aren't limited to:
+
+          Youtube API
+          Live Weather APIs
+          Spotify API
+          LastFM API
+          Daily Fact API
+          International Space Station tracking API
+
         </p>
-        <p class="card-text"></p>
-        <p class="card-text"></p>
-      </div>
-      <div class="slidecontainer">
-        <p class="sliderNo">5/10</p>
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="5" class="slider" id="myRange">
       </div>
     </div>
-    <div class="card">
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">Hosting</h5>
-        <p class="card-text">To get this site and all others in my portfolio up and running properly and professionally  -  I taught myself the ins and outs of what was needed to get them online in the most effective and efficient way.   This included: <br>
-          <li>Uploading files to hosts server.  First via CyberDuck then via Git</li><br>
-          <li>Changing DNS records for domain transfers</li><br>
-          <li>Changing MX records for email accounts</li><br>
-          <li>Incorporating .htaccess files</li><br>
-          <li>Installing SSL Certs</li><br>
-          <li>Creating backups</li>
+        <div class="skillsLogo">
+          <img src="laravelLogo.png" alt="" class="" width="100px">
+        </div>
+        <p class="card-text skillsText">To get this site and all others in my portfolio up and running properly and professionally  -  I taught myself the ins and outs of what was needed to get them online in the most effective and efficient way.   This included: <br>
+          Uploading files to hosts server. First via CyberDuck then via Git<br>
+          Changing DNS records for domain transfers<br>
+          Changing MX records for email accounts<br>
+          Incorporating .htaccess files<br>
+          Installing SSL Certs<br>
+          Creating backups
         </p>
-        <p class="card-text"></p>
+        
       </div>
-      <div class="slidecontainer">
-        <p class="sliderNo">7/10</p>
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="7" class="slider" id="myRange">
-      </div>
+      
     </div>
-    <div class="card">
+    <div class="card darkModeBody darkModeText">
       <div class="card-body">
-        <h5 class="card-title">React</h5>
-        <p class="card-text"> I see React mentioned everywhere on blogs and forums so I plan to start learning it soon once I increase my skill set a bit more. I know what it does but that's as far as my knowledge extends at the moment.<br><br>My goal is to become proficient in both front and back end development culminating in becoming a full stack developer.</p>
-      </div>
-      <div class="slidecontainer">
-        <p class="sliderNo">0/10</p>
-        <input class="card-img-bottom slider" type="range" min="1" max="10" value="0" class="slider" id="myRange">
+        <div class="skillsLogo">
+          <img src="vueLogo.png" alt="" class="" width="100px">
+        </div>
+        <p class="card-text skillsText"> I see React mentioned everywhere on blogs and forums so I plan to start learning it soon once I increase my skill set a bit more. I know what it does but that's as far as my knowledge extends at the moment.<br><br>My goal is to become proficient in both front and back end development culminating in becoming a full stack developer.</p>
       </div>
     </div>
   </div>

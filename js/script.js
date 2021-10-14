@@ -3,9 +3,17 @@ const checkbox = document.getElementById('checkbox');
 
 checkbox.addEventListener('change', ()=>{
   console.log("changed");
-  $(".darkModebody").toggleClass("light-mode-body");
+  $(".darkModeBody").toggleClass("light-mode-body");
   $(".darkModeText").toggleClass("light-mode-text");
 });
+
+$(".card").hover( function() {
+  $('.skillsLogo', this).toggleClass('hide');
+  $('.card-title', this).toggleClass('hide');
+  $('.skillsText', this).toggleClass('show');
+  
+});
+
 
 
 
