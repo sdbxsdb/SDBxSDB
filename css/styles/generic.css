@@ -830,6 +830,7 @@ nav {
 }
 
 .toggle-slot {
+  cursor: pointer;
   position: relative;
   height: 2em;
   width: 4em;
