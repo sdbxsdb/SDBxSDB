@@ -30,10 +30,14 @@
 }
 
 #gamePageBtn {
-  max-width: 120px;
   background-color: transparent;
-  border: solid 1px white;
-  margin: 10px auto;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  color: white;
+  margin: 40px auto 0;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 @media only screen and (max-width: 1020px) {
@@ -43,8 +47,9 @@
 }
 
 #gamePageBtn:hover {
-  background-color: white;
-  color: #00b7ff;
+  color: #00b7ff !important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #gamePageBtn:focus {
@@ -168,12 +173,17 @@ a {
 
 #startGame {
   margin-bottom: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 #startGame:hover {
   cursor: pointer;
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
+  color: #00b7ff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 #footerIndexPg {
@@ -209,6 +219,7 @@ a {
 }
 
 .toggle-slot {
+  cursor: pointer;
   position: relative;
   height: 2em;
   width: 4em;

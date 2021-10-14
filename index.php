@@ -20,11 +20,11 @@
   </div>
 
     <div id="welcome" class="container darkModeText">
-      <h1>Hi, I'm Sam!</h1>
-      <p>Welcome to my landing page. <br> Have a game of pong and when you're ready head on in.
+      <h1>Hi, I'm Sam!</h1><br>
+      <p>Welcome to my site. <br> Have a game of pong and when you're ready head on in!
         <br></p>
       
-      <button id="gamePageBtn" class="">I'm bored of pong</button>
+      <button id="gamePageBtn" class="darkModeText">I'm bored of pong. Take me inside.</button>
     </div>
 
     <div id="gameWrapper">
