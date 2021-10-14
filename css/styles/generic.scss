@@ -2,11 +2,14 @@
 $grey: rgb(68, 76, 97);
 $blue: rgb(0, 183, 255);
 $black: #191919;
+$white: #FDFDFD;
 
-
+body {
+  background-color: $black;
+}
 
 a {
-  color: $blue;
+  color: $black;
 }
 
 
@@ -53,9 +56,22 @@ a {
     }
 }
 
+#nav {
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  z-index: 999;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+  color: $white;
+}
+
+
 .navbar-light .navbar-nav .nav-link {
+  color:$white;
   &:hover {
-    color: white;
+    color: $blue;
   }
 }
 
@@ -72,9 +88,9 @@ a {
 }
 
 nav {
-  background-color: rgb(0, 183, 255);
+  background-color: $black;
   height: 97px;
-  border-bottom: solid 3px rgb(255, 255, 255);
+  border-bottom: solid 3px $white;
 
     @media only screen and (max-width: 767px) {
       height: 107px;
@@ -85,7 +101,7 @@ nav {
   #portfolioDropdown {
 
     .dropdown-menu {
-      background-color: $blue;
+      background-color: $black;
       border: none;
       border-radius: 0 0 10px 10px;
       text-align: center;
@@ -100,12 +116,12 @@ nav {
     }
 
     .dropdown-item {
-      color: white;
+      color: $white;
       width: auto;
 
 
       &:hover {
-        background-color: white;
+        background-color: $white;
         width: 100%;
         color: $blue;
         border-radius: 5px;
@@ -120,6 +136,7 @@ nav {
     margin: 0 10px;
 
     #navName {
+      color: $white;
       position: relative;
       top: 18px;
       margin: 0;
@@ -222,9 +239,11 @@ nav {
     box-sizing: border-box;
     text-align: center;
     padding: 20px;
-    margin: 80px 0;
+    margin: 220px 0 80px 0;
     height: 200px;
     font-size: 1.1em;
+    background-color: $black;
+    color: $white;
 
     @media only screen and (max-width: 767px) {
       height: 200px;
@@ -709,7 +728,7 @@ nav {
 
 
     .nav-link.active {
-      background-color: $blue;
+      background-color: $white;
     }
 
     .tab-pane {
@@ -804,6 +823,104 @@ nav {
 #contactSubmitBtn:disabled {
   cursor: not-allowed;
 }
+
+
+//DARKMODE TOGGLE STYLING
+.light-mode-text {
+  color: #191919!important;
+  transition: all 0.5s ease-in-out;
+}
+
+.light-mode-body {
+  background-color: #FDFDFD!important;
+  transition: all 0.5s ease-in-out;
+}
+
+
+.toggle-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.toggle-slot {
+  position: relative;
+  height: 2em;
+  width: 4em;
+  border: 5px solid #e4e7ec;
+  border-radius: 10em;
+  background-color: white;
+  /* box-shadow: 0px 10px 25px #e4e7ec; */
+  transition: background-color 250ms;
+}
+
+.toggle-checkbox:checked ~ .toggle-slot {
+  background-color: #374151;
+}
+
+.toggle-button {
+  transform: translate(2em, 0.18em);
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  background-color: #ffeccf;
+  box-shadow: inset 0px 0px 0px 0.15em #ffbb52;
+  transition: background-color 250ms, border-color 250ms, transform 500ms cubic-bezier(.26,2,.46,.71);
+}
+
+.toggle-checkbox:checked ~ .toggle-slot .toggle-button {
+  background-color: #485367;
+  box-shadow: inset 0px 0px 0px 0.15em white;
+  transform: translate(0.4em, 0.2em);
+}
+
+.sun-icon {
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  color: #ffbb52;
+}
+
+.sun-icon-wrapper {
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  opacity: 1;
+  transform: translate(0.4em, 0.2em) rotate(15deg);
+  transform-origin: 50% 50%;
+  transition: opacity 150ms, transform 500ms cubic-bezier(.26,2,.46,.71);
+}
+
+.toggle-checkbox:checked ~ .toggle-slot .sun-icon-wrapper {
+  opacity: 0;
+  transform: translate(1em, 0em) rotate(0deg);
+}
+
+.moon-icon {
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  color: white;
+}
+
+.moon-icon-wrapper {
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  opacity: 0;
+  transform: translate(0.4em, 0.2em) rotate(0deg);
+  transform-origin: 50% 50%;
+  transition: opacity 150ms, transform 500ms cubic-bezier(.26,2.5,.46,.71);
+}
+
+.toggle-checkbox:checked ~ .toggle-slot .moon-icon-wrapper {
+  opacity: 1;
+  transform: translate(2em, 0.2em) rotate(-15deg);
+}
+//END OF // DARKMODE TOGGLE STYLING
 
 
 //***** END OF SDB WEBSITE STYLING*****//

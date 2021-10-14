@@ -20,10 +20,11 @@
   </div>
 
     <div id="welcome" class="container darkModeText">
-      <h1>Welcome!</h1>
-      <p>You've reached the landing page of Sam Donaghy-Bell's website.<br>
-        In here you'll find a bit out me, my portfolio (including this Javascript pong game I made) and my contact information.<br><br>If you'd like to go to the home page now click below, or if you'd prefer to try your hand at beating the computer go ahead!</p>
-      <button id="gamePageBtn" class="btn btn-success">Main Site</button>
+      <h1>Hi, I'm Sam!</h1>
+      <p>Welcome to my landing page. <br> Have a game of pong and when you're ready head on in.
+        <br></p>
+      
+      <button id="gamePageBtn" class="">I'm bored of pong</button>
     </div>
 
     <div id="gameWrapper">
