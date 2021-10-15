@@ -7,22 +7,9 @@
       <div id="title">
         <h1>McDonald's Farm Children's Game</h1>
       </div>
-      <div id="text">
-        <p> This is a children's game I made from scratch for my nieces using HTML, SCSS and JavaScript / jQuery. <br><br>It's a relatively simple drag and drop game with <cite>really</cite> annoying sound effects.   It allows you to input your name at the start which carries across each page as you play.<br>It was my first dip into storing and recalling data, in this case to and from local storage.  The game also has touch and drag intergrated via jQuery to allow for use on tablets.<br><br> The game is best viewed on a desktop, laptop or tablet.<br><br></p>
-        <br><br>
-        <p class="layoutWarning"><small><cite>*Please note that layout of game in the pane below may not be true if viewed on a mobile device due to the viewer window being too small.</cite></small></p>
-      </div>
-      <a href="https://github.com/sdbxsdb/Kids-Game" target="_blank"><i class="fab fa-github" style="font-size: 40px;"></i></a>
-      <div>
-        <strong>Link to the full code <a href="https://github.com/sdbxsdb/Kids-Game" target="_blank">here.</a></strong>
-      </div>
-      <br>
-      <strong>Link to the full site <a href="https://sdbkidsgame.xyz/" target="_blank">here.</a></strong>
-    </div>
-  </div>
 
-  <div class="container" id="code">
-    <div class="">
+      <div class="container" id="code">
+    <!-- <div class="">
       <ul class="nav nav-tabs" id="outerTab" role="tablist">
         <li class="nav-item">
           <a class="nav-link active" data-toggle="tab" href="#websiteTab" aria-controls="websiteTab" role="tab" aria-expanded="true">Website</a>
@@ -37,12 +24,12 @@
           <a class="nav-link" data-toggle="tab" href="#jsCode" aria-controls="jsCode" role="tab">JavaScript</a>
         </li>
       </ul>
-    </div>
+    </div> -->
     <div id="tabContent" class="tab-content">
       <div class="tab-pane" id="htmlCode" role="tabpanel">
         <div class="">
           <div class="">
-            <ul class="nav nav-tabs" id="innerTab" role="tablist">
+            <!-- <ul class="nav nav-tabs" id="innerTab" role="tablist">
               <li class="nav-item">
                 <a class="nav-link active" data-toggle="tab" href="#tab1" aria-controls="tab1" role="tab" aria-expanded="true">Home</a>
               </li>
@@ -52,7 +39,7 @@
               <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#tab3" aria-controls="tab3" role="tab">Animals</a>
               </li>
-            </ul>
+            </ul> -->
           </div>
           <div class="tab-content">
 
@@ -75,6 +62,8 @@
         <iframe src="https://www.sdbkidsgame.xyz/" frameborder="0"></iframe>
       </div>
 
+      <p class="layoutWarning darkModeText"><small><cite>*NB that layout of game in the pane above may not be true if viewed on a mobile device due to the viewer window being too small.</cite></small></p>
+
       <div class="tab-pane" id="cssCode" role="tabpanel">
         <code>
           <?php include("includes/KGcssCode.php") ?>
@@ -95,6 +84,21 @@
 
     </div>
   </div>
+
+      <div id="text">
+        <p class="darkModeText"> This is a children's game I made from scratch for my nieces using HTML, SCSS and JavaScript / jQuery. <br><br><br>It's a relatively simple drag and drop game with <cite>really</cite> annoying sound effects.  <br> It allows you to input your name at the start which carries across each page as you play.<br><br><br>It was my first dip into storing and recalling data, in this case to and from local storage. <br> The game also has touch and drag intergrated via jQuery to allow for use on tablets.<br><br><br> The game is best viewed on a desktop, laptop or tablet.<br><br></p>
+        
+      </div>
+      <a href="https://github.com/sdbxsdb/Kids-Game" target="_blank"><i class="fab fa-github darkModeText" style="font-size: 40px;"></i></a>
+      <div>
+        <strong> <a href="https://github.com/sdbxsdb/Kids-Game" target="_blank" class="darkModeText">Link to the code.</a></strong>
+      </div>
+      <br>
+      <strong> <a href="https://sdbkidsgame.xyz/" target="_blank" class="darkModeText">Link to the site.</a></strong>
+    </div>
+  </div>
+
+  
 
 
 

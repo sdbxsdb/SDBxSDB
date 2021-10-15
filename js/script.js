@@ -22,7 +22,7 @@ $( ".skillsCard" ).mouseleave( function() {
 
 
 //TAKES YOU TO AN ID ANCHOR ON EACH PAGE
-$("#aboutMe").click(function() {
+$("#aboutMeLink").click(function() {
   $('html, body').animate({
       scrollTop: $("#aboutMeText").offset().top -300
   }, 1000);

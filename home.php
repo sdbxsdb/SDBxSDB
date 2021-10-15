@@ -114,7 +114,7 @@
           <img src="jqueryLogo.png" alt="" class="" width="100px">
         </div>
         <p class="card-text skillsText">
-          I  &#10084;   the literal endless capabilities of this language. <br><br>
+          I  &#10084;  the literally endless capabilities of this language. <br><br>
           I'm well versed in vanilla JS as well as jQuery and it's many plugins. Whether via CND or NPM. <br><br>
           Some recent projects have required: <br><br>
         <div class="skillsText">

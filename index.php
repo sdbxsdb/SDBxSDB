@@ -4,26 +4,27 @@
 
   <section id="gamePageWrapper" class="darkModeBody">
 
-  <div class="darkModeToggle">
-    <label>
-    <input id="checkbox" class='toggle-checkbox' type='checkbox'></input>
-    <div class='toggle-slot'>
-      <div class='sun-icon-wrapper'>
-        <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>
-      </div>
-      <div class='toggle-button'></div>
-      <div class='moon-icon-wrapper'>
-        <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"></div>
-      </div>
+    <div class="darkModeToggle">
+      <label>
+        <input id="checkbox" class='toggle-checkbox' type='checkbox'></input>
+        <div class='toggle-slot'>
+          <div class='sun-icon-wrapper'>
+            <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>
+          </div>
+          <div class='toggle-button'></div>
+          <div class='moon-icon-wrapper'>
+            <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"></div>
+          </div>
+        </div>
+      </label>
     </div>
-    </label>
-  </div>
 
     <div id="welcome" class="container darkModeText">
       <h1>Hi, I'm Sam!</h1><br>
       <p>Welcome to my site. <br> Have a game of pong and when you're ready head on in!
-        <br></p>
-      
+        <br>
+      </p>
+
       <button id="gamePageBtn" class="darkModeText">I'm bored of pong. Take me inside.</button>
     </div>
 

@@ -56,6 +56,7 @@
             <span>Sam Donaghy-Bell</span><br>
             <cite>Course of Life</cite>
           </div>
+          
 
         </div>
 
@@ -64,7 +65,8 @@
             <div class="navbar-nav">
               <!--<a href="/home.php" class="nav-item nav-link active">Home</a>-->
 
-              <a id="aboutMe" href="/home.php#aboutMeAnchor" class="nav-item nav-link">About Me</a>
+              <a id="pongLink" href="/" class="nav-item nav-link">🏓</a>
+              <a id="aboutMeLink" href="/home.php#aboutMeAnchor" class="nav-item nav-link">About Me</a>
 
               <!--NAV PORTFILIO DROPDOWN-->
               <div id="portfolioDropdown" class="dropdown">
@@ -75,9 +77,7 @@
                   <a class="dropdown-item" href="/portfolioCineCopters.php">CineCopters</a>
                   <a class="dropdown-item" href="/portfolioEverAfter.php">Ever After Films</a>
                   <a class="dropdown-item" href="/portfolioFamilyGram.php">FamGram</a>
-                  <a class="dropdown-item" href="/portfolioTrainerJo.php">Trainer Jo</a>
                   <a class="dropdown-item" href="/portfolioKidsGame.php">Childrens Game</a>
-                  <a class="dropdown-item" href="/portfolioSDB.php">SDBxSDB </a>
                   <a class="dropdown-item" href="/portfoliopagePong.php">Pong Game</a>
                   <a class="dropdown-item" href="/smartMirror.php">Smart Mirror</a>
                 </div>
