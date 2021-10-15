@@ -851,6 +851,7 @@ nav {
 }
 
 #thanksMsgPG {
+  margin-top: 120px;
   text-align: center;
   min-height: calc(100vh - (113px + 180px));
 }
