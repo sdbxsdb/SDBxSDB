@@ -7,14 +7,14 @@ checkbox.addEventListener('change', ()=>{
   $(".darkModeText").toggleClass("light-mode-text");
 });
 
-$(".card").hover( function() {
+$(".skillsCard").hover( function() {
   $('.skillsLogo', this).toggleClass('hide');
   $('.card-title', this).toggleClass('hide');
   $('.skillsText', this).toggleClass('show');  
   $(this).css('height', 'auto');
 });
 
-$( ".card" ).mouseleave( function() {
+$( ".skillsCard" ).mouseleave( function() {
   $(this).css('height', '320px');
 });
 

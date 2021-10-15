@@ -67,7 +67,7 @@
 
   <div class="card-deck">
 
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="html5logo.png" alt="" class="" width="100px">
@@ -76,7 +76,7 @@
       </div>
     </div>
 
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="sassLogo.png" alt="" class="" width="80px">
@@ -90,7 +90,7 @@
       </div>
     </div>
 
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="bootstrapLogo.png" alt="" class="" width="100px">
@@ -107,7 +107,7 @@
   <div class="card-deck">
 
 
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="jsLogo.png" alt="" class="" width="80px">
@@ -131,7 +131,7 @@
       </div>
 
     </div>
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="apiLogo.png" alt="" class="" width="110px">
@@ -152,7 +152,7 @@
         </p>
       </div>
     </div>
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="snipcartLogo.png" alt="" class="" width="100px">
@@ -171,7 +171,7 @@
   </div>
 
   <div class="card-deck">
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="itermLogo.png" alt="" class="" width="80px">
@@ -185,7 +185,7 @@
 
 
     </div>
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="adobeLogo.png" alt="" class="" width="100px">
@@ -193,7 +193,7 @@
         <p class="card-text skillsText">I started creating & manipulating with Photoshop back in the CS2 days (11 years ago!). <br><br> I've grown and updated my skills with every version since. <br><br> I'm also extremely well practiced in Pr and AE.</p>
       </div>
     </div>
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="figmaLogo.png" alt="" class="" width="80px">
@@ -211,7 +211,7 @@
   </div>
 
   <div class="card-deck">
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <!--<h5 class="card-title">CMS</h5>-->
         <div class="skillsLogo">
@@ -226,7 +226,7 @@
 
     </div>
 
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="laravelLogo.png" alt="" class="" width="100px">
@@ -239,7 +239,7 @@
       </div>
 
     </div>
-    <div class="card darkModeBody darkModeText">
+    <div class="card skillsCard darkModeBody darkModeText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="vueLogo.png" alt="" class="" width="100px">
@@ -262,143 +262,55 @@
   <div id="portfolioAnchor"></div>
   <!--ABOUT ANCHOR TAG-->
 
-  <div id="portfolioTitle">
+  <div id="portfolioTitle" class="darkModeText">
     <h3>Portfolio</h3>
-    <p>Have a look at some of the things I've built!</p>
+    <p>Feel free to have a look at a handful of the things I've built!</p>
   </div>
-  <div id="portfolioContent">
-    <div class="card-group">
+  <div id="portfolioContent" class="darkModeBody">
+    <div class="card-group ">
 
-      <div class="card">
+      <div class="card  darkModeBody">
         <a href="/portfolioCineCopters.php">
           <img id="topLcard" class="card-img-top" src="/img/belfastcitycopy.jpg">
-          <h5 class="card-title">CineCopters Drones</h5>
-          <hr>
-          <!-- <p class="card-text">A website built with -</p>
-          <li>HTML</li>
-          <li>SCSS</li>
-          <li>Bootstrap 4</li>
-          <li>JavaScript / jQuery</li>
-          <li>APIs</li>
-          <li>PHP</li> <br>
-          <p>- for the biggest Film & TV drone company in Ireland. </p>
-          <p> -->
+          <h5 class="card-title darkModeText">CineCopters Drones</h5>
         </a>
       </div>
 
-      <div class="card">
+      <div class="card darkModeBody">
         <a href="/portfolioEverAfter.php">
           <img class="card-img-top" src="/img/wedding.jpg">
-          <h5 class="card-title">Ever After Films</h5>
-          <hr>
-          <!-- <p class="card-text text">A site designed and built for a wedding film company with -</p>
-          <li>HTML</li>
-          <li>SCSS</li>
-          <li>Bootstrap 4</li>
-          <li>JavaScript / jQuery</li>
-          <li>APIs</li>
-          <li>PHP</li> <br>
-          <p> - for a video production company.  The website has been built and optimized for Wordpress.
-          </p> -->
-
+          <h5 class="card-title darkModeText">Ever After Films</h5>
         </a>
       </div>
 
-      <div class="card">
+      <div class="card darkModeBody">
         <a href="/portfolioFamilyGram.php">
-          <img class="card-img-top" src="/img/famGramLogo-mincopy.png">
-          <h5 class="card-title">Family Gram</h5>
-          <hr>
-          <!-- <p class="card-text text">A designed and built for a wedding film company with -</p>
-          <li>HTML</li>
-          <li>SCSS</li>
-          <li>Bootstrap 4</li>
-          <li>JavaScript / jQuery</li>
-          <li>APIs</li>
-          <li>PHP</li> <br>
-          <p> - for a video production company.  The website has been built and optimized for Wordpress.
-          </p> -->
-
+          <img id="topRcard" class="card-img-top" src="/img/famGramLogo-mincopy.png">
+          <h5 class="card-title darkModeText">Family Gram</h5>
         </a>
       </div>
 
-      <div class="card">
-        <a href="/portfolioTrainerJo.php">
-          <img id="topRcard" class="card-img-top" src="/img/trainerjo.png">
-          <h5 class="card-title">Trainer Jo</h5>
-          <hr>
-          <!-- <p class="card-text">A website built with -</p>
-          <li>HTML</li>
-          <li>SCSS</li>
-          <li>Bootstrap 4</li>
-          <li>JavaScript / jQuery</li>
-          <li>PHP</li> <br>
-          <p> - for an in demand personal trainer.  The website incorporates a online video library and class calendar system.
-          </p> -->
-
-        </a>
-      </div>
+      
 
     </div>
     <div class="card-group">
-      <div class="card">
+      <div class="card darkModeBody">
         <a href="/portfolioKidsGame.php">
           <img id="btmLcard" class="card-img-top" src="/img/kidsGame1.jpg">
-          <h5 class="card-title">Children's Game</h5>
-          <hr>
-          <!-- <p class="card-text text">A children's drag and drop game built with -</p>
-          <li>HTML</li>
-          <li>SCSS</li>
-          <li>Bootstrap 4</li>
-          <li>JavaScript / jQuery</li>
-          <li>Touch and drag for handheld devices</li> <br>
-          <p>- for my nieces!
-          </p> -->
+          <h5 class="card-title darkModeText">Children's Game</h5>
         </a>
       </div>
-      <div class="card">
-        <a href="/portfolioSDB.php">
-          <img class="card-img-top" src="/img/sam avatar copy.png">
-          <h5 class="card-title">SDB Developer</h5>
-          <hr>
-          <!-- <p class="card-text">The website where you are now.  Built with -</p>
-          <li>HTML</li>
-          <li>SCSS</li>
-          <li>Bootstrap 4</li>
-          <li>JavaScript / jQuery</li>
-          <li>PHP</li> <br>
-          <p>- for a developer called Sam to show you what he can do!
-          </p> -->
-        </a>
-      </div>
-      <div class="card">
+      
+      <div class="card darkModeBody">
         <a href="/portfoliopagePong.php">
           <img id="" class="card-img-top" src="/img/pong.png">
-          <h5 class="card-title">Pong Game</h5>
-          <hr>
-          <!-- <p class="card-text text">A Javascript Pong game I built with the help of a tutorial which I've customised and intergrated into the first page of my website. </p>
-          <li>HTML</li>
-          <li>SCSS</li>
-          <li>Bootstrap 4</li>
-          <li>JavaScript</li> -->
+          <h5 class="card-title darkModeText">Pong Game</h5>
         </a>
       </div>
-      <div class="card">
+      <div class="card darkModeBody">
         <a href="/smartMirror.php">
           <img id="btmRcard" class="card-img-top" src="/img/smartmirror/IMG_2296-min.jpg">
-          <h5 class="card-title">Smart Mirror</h5>
-          <hr>
-          <!-- <p class="card-text text">A custom smart mirror I built with - </p>
-          <li>HTML</li>
-          <li>SCSS</li>
-          <li>Bootstrap 4</li>
-          <li>JavaScript / jQuery</li>
-          <li>AJAX</li>
-          <li>Several APIs</li>
-          <li>Raspberry Pi</li>
-          <br>
-          <p> - A mirror when off - a display when on.
-          </p> -->
+          <h5 class="card-title darkModeText">Smart Mirror</h5>
         </a>
       </div>
     </div>
@@ -410,17 +322,17 @@
 
 <!--CONTACT-->
 
-<div id="contact" class="container contact-form">
+<div id="contact" class="container contact-form darkModeBody ">
 
   <div id="contactAnchor"></div>
   <!--CONTACT ANCHOR TAG-->
 
-  <div class="contact-image">
-    <img id="contactLogo" src="/img/sam avatar no bg.png" width="150px" alt="SDB logo" />
+  <div class="contact-image" class="darkModeBody">
+    <img id="contactLogo" class="darkModeBody" src="/img/sam avatar no bg.png" width="150px" alt="SDB logo" />
   </div>
 
   <form method="post" action="thankssubmit.php">
-    <h3>Drop Me a Message</h3>
+    <h3 class="darkModeText">Drop Me a Message</h3>
     <div class="row">
 
       <div class="col-sm">
@@ -452,8 +364,8 @@
 
 <!--/CONTACT-->
 
-<!--Back to Top Button-->
+<!-- Back to Top Button
 <button class="btn" id="backToTop" onclick="topFunction()" title="Go to top"> &#8593;</button>
-
+ -->
 
 <?php include("includes/footer.php"); ?>
