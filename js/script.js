@@ -10,8 +10,12 @@ checkbox.addEventListener('change', ()=>{
 $(".card").hover( function() {
   $('.skillsLogo', this).toggleClass('hide');
   $('.card-title', this).toggleClass('hide');
-  $('.skillsText', this).toggleClass('show');
-  
+  $('.skillsText', this).toggleClass('show');  
+  $(this).css('height', 'auto');
+});
+
+$( ".card" ).mouseleave( function() {
+  $(this).css('height', '320px');
 });
 
 

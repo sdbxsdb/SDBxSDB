@@ -72,7 +72,7 @@
         <div class="skillsLogo">
           <img src="html5logo.png" alt="" class="" width="100px">
         </div>
-        <p class="card-text skillsText">I built my first website using zero bootstrap, my second using Bootstrap3, the third using BS4.  <br><br>I love using Bootstrap for some elements when it's simpler to do so but I usually prefer to build Bootstrap style elements from scratch.<br><br> I like to have as much control over elements as possible without the need for important tags.</p>
+        <img class="skillsText" width="100%" src="https://media.giphy.com/media/oobNzX5ICcRZC/giphy.gif" alt="">
       </div>
     </div>
 
@@ -83,7 +83,7 @@
           <img src="tailwindLogo.png" alt="" class="" width="100px">
         </div>
         
-        <p class="card-text skillsText">I built my first website using zero bootstrap, my second using Bootstrap3, the third using BS4.  <br><br>I love using Bootstrap for some elements when it's simpler to do so but I usually prefer to build Bootstrap style elements from scratch.<br><br> I like to have as much control over elements as possible without the need for important tags.</p>
+        <p class="card-text skillsText">I built my first website using zero bootstrap, my second using Bootstrap3, the third using BS4.  <br><br>I'm now very fond of <strong>Tailwind CSS</strong>. <br> It's small, highly and easily customisable and makes getting off the ground really fast.  <br><br> In recent projects I've taken to extending the life out of the themes so as to really unlock it's capabilities.  <br><br> I'm also familiar with the new JIT (just-in-time) mode.</p>
       </div>
     </div>
 
@@ -93,11 +93,11 @@
           <img src="figmaLogo.png" alt="" class="" width="80px">
           <img src="sketchLogo.png" alt="" class="" width="100px">
         </div>
-        <p class="card-text skillsText">I have experience in translating designs from various programs such as - <br>
+        <p class="card-text skillsText">I have experience in translating a designers designs from various programs such as - <br><br>
         - Figma <br>
         - Sketch <br>
         - Zeplin <br>
-        With no real preference I can jump between each one with ease.</p>
+        </p>
       </div>
     </div>
   </div>
@@ -109,7 +109,9 @@
           <img src="sassLogo.png" alt="" class="" width="80px">
           <img src="cssLogo.png" alt="" class="" width="80px">
         </div>
-        <p class="card-text skillsText">I've learnt quickly able to refine and reduce the lines of code and readability considerably when writing CSS.<br><br>I'm very familiar with flexbox and familiar with CSS grids. I love writing SCSS - familiar syntax, great nesting and very handy live reloads for VS Code. <br><br>When I appropriate I also using custom CSS animations to increase the UX. I even built an entire revolving solar system in CSS.</p>
+        <p class="card-text skillsText">
+          I'm well versed in vanilla CSS, SASS and SCSS.  I always try to reduce, reuse and recycle classes and variables where possible.  
+          <br><br>I'm very familiar with flexbox and :nth and I'm familiar with CSS grids as well. <br><br> I also really enjoy building custom CSS animations and hover effects.</p>
         <p class="card-text"></p>
       </div>
     </div>
@@ -119,7 +121,8 @@
           <img src="itermLogo.png" alt="" class="" width="80px">
           <img src="githubLogo.png" alt="" class="" width="100px">
         </div>
-        <p class="card-text skillsText">I'm familiar with using Git on the command line but much prefer using GitHubs desktop app with VS Code for ease of use. <br><br>My own website and other client builds are hosted with a provider that has a built in Git updater which allows me to edit and update my repositories without the need for a file uploader such as CyberDuck. <br><br>VS Code - GitHub Branch - Auto update to host when pushed to main. Reliable and trackable.
+        <p class="card-text skillsText">I'm familiar with using Git on the command line, GitHub Desktop and terminal within VS Code for push, pulls and commits. <br><br>This website and other client builds have webhooks attached for automatic pulls to the server when master branch is updated but I'm also familiar with SSH for server access. <br><br> I'm somewhat familiar with file up-loaders such as CyberDuck but usually prefer the above methods where appropriate.
+
         </p>
         
       </div>
@@ -132,7 +135,20 @@
           <img src="jsLogo.png" alt="" class="" width="80px">
           <img src="jqueryLogo.png" alt="" class="" width="100px">
         </div>
-        <p class="card-text skillsText">I started in with vanilla JavaScript but quickly moved onto the jQuery library which I've found great to work with. <br><br>While working with jQuery to make my sites a bit <cite>swisher</cite> I quickly got the feel and excitement and moved onto much more powerful things like APIs, nested if statements, event functions, element changes and various plugins!<br><br>Every day's a learning day and I LOVE learning JavaSript.</p>
+        <p class="card-text skillsText">
+        I  &#10084;   the literal endless capabilities of this language. <br><br>
+          I'm well versed in vanilla JS as well as jQuery and it's many plugins.  Whether via CND or NPM. <br><br>
+          Some recent projects have required: <br><br> 
+          <div class="skillsText">
+            <li>- Form submissions via AJAX</li><br>
+            <li>- Checking logged in user data against collections for allowing different products to be purchased</li><br>
+            <li>- Showing warning message depending on products status</li><br>
+            <li>- Integrating What3Words into GoogleMaps API to allow clients to swap their coordinates for 3 words instead</li><br>
+            <li>- Looping through YouTube videos, getting ID's and applying the embedded thumbnail of each to an img tag for each video</li>
+
+          </div>
+
+        </p>
         
       </div>
       
@@ -145,7 +161,7 @@
         <div class="skillsLogo">
           <img src="adobeLogo.png" alt="" class="" width="100px">
         </div>
-        <p class="card-text skillsText">I started creating & manipulating with photoshop back in the CS2 days (10 years ago!). I've grown and updated my skills with every version since. <br><br> I'm also extremely well versed in Pr and AE.</p>
+        <p class="card-text skillsText">I started creating & manipulating with Photoshop back in the CS2 days (11 years ago!). <br><br> I've grown and updated my skills with every version since. <br><br> I'm also extremely well practiced in Pr and AE.</p>
       </div>
     </div>
     <div class="card darkModeBody darkModeText">
@@ -154,8 +170,9 @@
         <div class="skillsLogo">
           <img src="statamicLogo.png" alt="" class="" width="100px">
         </div>
-        <p class="card-text skillsText">I've started teaching myself MySQL. I've always found the backend database side of programming fascinating. It seems to be very close to what I'm already used to.<br><br>So far I'm able to:
-        
+        <p class="card-text skillsText">Statamic CMS<br><br> I was introduced to Statamic a short while ago after only using Wordpress and over many months now I've found it far more modern, powerful and intuitive - not to mention it's built on-top of Laravel! <br><br>
+        I have experience in gaging a clients needs for their CMS and what they want to achieve when in their Control Panel.  <br><br>
+        Simply updating text, adding a new image to a gallery or creating a new blog post to something more in-depth like custom contact form creation or page building with elements from the site ‘componentised’ to be dropped in as they wish.
         </p>
         
       </div>
@@ -167,9 +184,11 @@
           <img src="snipcartLogo.png" alt="" class="" width="100px">
           <img src="shopifyLogo.png" alt="" class="" width="100px">
         </div>
-        <p class="card-text skillsText">I'm currently teaching myself (while building) PHP and it's frameworks such as Laravel for a few reasons.
-        <br>
-        So far with Laravel I've built a faux Instagram platform which allows people to:<br><br>
+        <p class="card-text skillsText">
+        I have experience in integrating Shopify's API into a CMS and also with coding in it's templating language Liquid&#128167;. <br><br>
+          I've recently introduced myself to the world of Snipcart.  I've found Snipcart to be an excellent and arguably more flexible alternative to Shopify. <br><br>  Using Snipcarts API I'm able to allow the client to add and products in their CMS (rather than jumping back and forth between CMS and shop). <br><br>
+          Snipcart has also allowed me to give clients access to their customers and assign special privileges like trade customers with complete control.
+
         </p>
         
       </div>
@@ -182,16 +201,20 @@
       <div class="card-body">
         <div class="skillsLogo">
           <img src="apiLogo.png" alt="" class="" width="110px">
+          <img src="postmanLogo.png" alt="" class="" width="100px">
         </div>
-        <p class="card-text skillsText">I've worked with and customised a number of free and paid for APIs within JavaScript for client and personal use. <br><br>These include but aren't limited to:
-
-          Youtube API
-          Live Weather APIs
-          Spotify API
-          LastFM API
-          Daily Fact API
-          International Space Station tracking API
-
+        <p class="card-text skillsText">Using PostMan and Javascript I've worked with and customised a number of free and paid for APIs for client and personal use.  <br><br>These include but aren't limited to:
+          <div class="skillsText">
+            <li>- Youtube API</li>
+            <li>- GoogleMaps API</li>
+            <li>- What3Words API</li>
+            <li>- Snipcart API</li>
+            <li>- Shopify API</li>
+            <li>- Live Weather APIs</li>
+            <li>- Spotify API</li>
+            <li>- LastFM API</li>
+            <li>- fInternational Space Station tracking API</li>
+          </div>
         </p>
       </div>
     </div>
@@ -200,13 +223,9 @@
         <div class="skillsLogo">
           <img src="laravelLogo.png" alt="" class="" width="100px">
         </div>
-        <p class="card-text skillsText">To get this site and all others in my portfolio up and running properly and professionally  -  I taught myself the ins and outs of what was needed to get them online in the most effective and efficient way.   This included: <br>
-          Uploading files to hosts server. First via CyberDuck then via Git<br>
-          Changing DNS records for domain transfers<br>
-          Changing MX records for email accounts<br>
-          Incorporating .htaccess files<br>
-          Installing SSL Certs<br>
-          Creating backups
+        <p class="card-text skillsText">
+          Because I've been working a lot with Statamic CMS which is built on top of Laravel I have a bit of experience of this and Blade. <br><br>
+          I do want to increase my PHP skills moving forward and build on the Laravel knowledge I have. In my portfolio you can find an Instagram copy I made with Blade via a few tutorials.
         </p>
         
       </div>
@@ -216,8 +235,11 @@
       <div class="card-body">
         <div class="skillsLogo">
           <img src="vueLogo.png" alt="" class="" width="100px">
+          <img src="reactLogo.png" alt="" class="" width="100px">
         </div>
-        <p class="card-text skillsText"> I see React mentioned everywhere on blogs and forums so I plan to start learning it soon once I increase my skill set a bit more. I know what it does but that's as far as my knowledge extends at the moment.<br><br>My goal is to become proficient in both front and back end development culminating in becoming a full stack developer.</p>
+        <p class="card-text skillsText">In a few recent projects I've used VueJs to work with dynamically input user data, pass data from 'page' to 'page' and display accordingly. <br><br>
+        I know I've barely scratched the surface of Vue, React and the likes but what I've done so far has me extremely keen to keep exploring. <br><br> The more practical, real world applications I can get the chance to work on the better and I'll jump at any chance to learn as much of Vue and or React as possible.
+        </p>
       </div>
     </div>
   </div>
