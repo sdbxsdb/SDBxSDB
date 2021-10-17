@@ -1,3 +1,14 @@
+$(".skillsCard").hover( function() {
+  $('.skillsLogo', this).toggleClass('hide');
+  $('.card-title', this).toggleClass('hide');
+  $('.skillsText', this).toggleClass('show');  
+  $(this).css('height', 'auto');
+});
+
+$( ".skillsCard" ).mouseleave( function() {
+  $(this).css('height', '320px');
+});
+
 
 
 // On page load set the theme.
@@ -50,16 +61,7 @@ function themeToggle() {
 
 
 
-$(".skillsCard").hover( function() {
-  $('.skillsLogo', this).toggleClass('hide');
-  $('.card-title', this).toggleClass('hide');
-  $('.skillsText', this).toggleClass('show');  
-  $(this).css('height', 'auto');
-});
 
-$( ".skillsCard" ).mouseleave( function() {
-  $(this).css('height', '320px');
-});
 
 
 
