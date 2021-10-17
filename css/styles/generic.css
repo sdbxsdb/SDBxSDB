@@ -217,6 +217,10 @@ nav {
   color: #087ead;
 }
 
+#mainPageWrapper {
+  margin-top: 100px;
+}
+
 #home li {
   list-style-type: none;
 }
@@ -344,35 +348,8 @@ nav {
   background-size: 100%;
   padding: 20px;
   text-align: center;
-  margin: 120px 0 220px 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-}
-
-@media only screen and (max-width: 989px) {
-  #home #aboutMe #aboutMeWrapper {
-    padding: 0;
-    height: 800px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  #home #aboutMe #aboutMeWrapper {
-    height: 900px;
-  }
-}
-
-@media only screen and (max-width: 538px) {
-  #home #aboutMe #aboutMeWrapper {
-    height: 1000px;
-  }
-}
-
-@media only screen and (max-width: 414px) {
-  #home #aboutMe #aboutMeWrapper {
-    height: 1080px;
-    padding-top: 0;
-  }
 }
 
 #home #aboutMe #aboutMeWrapper #aboutMeTitle {
@@ -431,13 +408,7 @@ nav {
 
 #home #skills {
   position: relative;
-  top: -100px;
-}
-
-@media only screen and (max-width: 990px) {
-  #home #skills {
-    top: 500px;
-  }
+  margin-top: 100px;
 }
 
 #home #skills .card {
@@ -521,10 +492,8 @@ nav {
   box-shadow: inset 0px 3px 30px 25px white;
 }
 
-@media only screen and (max-width: 990px) {
-  #home #portfolio {
-    margin-top: 700px;
-  }
+#home #portfolio {
+  margin-top: 100px;
 }
 
 #home #portfolio #portfolioTitle {

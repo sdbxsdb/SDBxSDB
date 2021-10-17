@@ -228,6 +228,10 @@ nav {
 
 //** HOME PAGE STYLING **//
 
+#mainPageWrapper {
+  margin-top: 100px;
+}
+
 #home {
 
 //CAROUSEL STYLING//
@@ -383,26 +387,9 @@ nav {
     background-size: 100%;
     padding: 20px;
     text-align: center;
-    margin: 120px 0 220px 0;
+    // margin: 120px 0 220px 0;
     transition: all 0.5s ease-in-out;
 
-    @media only screen and (max-width: 989px) {
-      padding: 0;
-      height: 800px;
-      }
-
-      @media only screen and (max-width: 576px) {
-        height: 900px;
-        }
-
-        @media only screen and (max-width: 538px) {
-          height: 1000px;
-          }
-
-      @media only screen and (max-width: 414px) {
-        height: 1080px;
-        padding-top: 0;
-        }
 
     #aboutMeTitle {
       margin-top: 50px;
@@ -410,7 +397,7 @@ nav {
       h2 {
         transition: all 0.5s ease-in-out;
       }
-   
+
       
       // @media only screen and (max-width: 414px) {
       //   margin-top: -100px;
@@ -463,11 +450,12 @@ nav {
 
   #skills {
     position: relative;
-    top: -100px;
+    margin-top: 100px;
+    // top: -100px;
 
-    @media only screen and (max-width: 990px) {
-      top: 500px;
-      }
+    // @media only screen and (max-width: 990px) {
+    //   top: 500px;
+    //   }
 
     .card {
       transition: all 0.5s ease-in-out;
@@ -551,9 +539,11 @@ nav {
 
   #portfolio {
 
-    @media only screen and (max-width: 990px) {
-      margin-top: 700px;
-      }
+    margin-top: 100px;
+
+    // @media only screen and (max-width: 990px) {
+    //   margin-top: 700px;
+    //   }
 
     #portfolioTitle {
       transition: all 0.5s ease-in-out;
