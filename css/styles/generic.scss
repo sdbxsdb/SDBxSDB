@@ -465,6 +465,10 @@ nav {
     position: relative;
     top: -100px;
 
+    @media only screen and (max-width: 990px) {
+      top: 500px;
+      }
+
     .card {
       transition: all 0.5s ease-in-out;
       background-color: $black;
@@ -492,7 +496,7 @@ nav {
       font-size: 18px;
       position: relative;
       // left: -350px;
-      left: 110%;
+      left: 120%;
       transition: all 0.5s ease-in-out;
 
     }
@@ -547,6 +551,9 @@ nav {
 
   #portfolio {
 
+    @media only screen and (max-width: 990px) {
+      margin-top: 560px;
+      }
 
     #portfolioTitle {
       transition: all 0.5s ease-in-out;

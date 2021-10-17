@@ -434,6 +434,12 @@ nav {
   top: -100px;
 }
 
+@media only screen and (max-width: 990px) {
+  #home #skills {
+    top: 500px;
+  }
+}
+
 #home #skills .card {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -463,7 +469,7 @@ nav {
 #home #skills .skillsText {
   font-size: 18px;
   position: relative;
-  left: 110%;
+  left: 120%;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -513,6 +519,12 @@ nav {
   height: 100px;
   -webkit-box-shadow: inset 0px 3px 30px 25px white;
   box-shadow: inset 0px 3px 30px 25px white;
+}
+
+@media only screen and (max-width: 990px) {
+  #home #portfolio {
+    margin-top: 560px;
+  }
 }
 
 #home #portfolio #portfolioTitle {
