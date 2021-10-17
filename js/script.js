@@ -50,16 +50,6 @@ function themeToggle() {
 
 
 
-
-
-
-//$(".themeColorBody").toggleClass("light-mode-body");
-//$(".themeColorText").toggleClass("light-mode-text");
-
-
-
-
-
 $(".skillsCard").hover( function() {
   $('.skillsLogo', this).toggleClass('hide');
   $('.card-title', this).toggleClass('hide');

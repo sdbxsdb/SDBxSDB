@@ -54,6 +54,7 @@ a {
 .navbar-toggler {
   @media only screen and (max-width: 767px) {
     position: absolute;
+    bottom: 0;
     right: 2%;
     }
 }
@@ -95,7 +96,8 @@ a {
     top: 104px;
     position: absolute;
     text-align: center;
-    background-color: $blue;
+    background-color: $black;
+    border-top: 4px solid $blue;
     border-radius: 0 0 10px 10px;
     }
 }
@@ -157,6 +159,7 @@ nav {
       position: relative;
       top: 18px;
       margin: 0;
+      text-decoration: none;
     }
 
     #navLogo {
@@ -403,11 +406,15 @@ nav {
 
     #aboutMeTitle {
       margin-top: 50px;
-      transition: all 0.5s ease-in-out;
-      
-      @media only screen and (max-width: 414px) {
-        margin-top: -100px;
+
+      h2 {
+        transition: all 0.5s ease-in-out;
       }
+   
+      
+      // @media only screen and (max-width: 414px) {
+      //   margin-top: -100px;
+      // }
     }
   }
 }
@@ -484,7 +491,8 @@ nav {
     .skillsText {
       font-size: 18px;
       position: relative;
-      left: -350px;
+      // left: -350px;
+      left: 110%;
       transition: all 0.5s ease-in-out;
 
     }
@@ -495,6 +503,7 @@ nav {
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      overflow: hidden;
     }
  
   .sliderNo {
@@ -937,6 +946,14 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
+.darkModeToggle {
+  @media only screen and (max-width: 767px) {
+    position: absolute;
+    top: 19%;
+    right: 4%;
+    }
+}
+
 
 .light-mode-body {
   background-color: #FDFDFD!important;
@@ -1032,7 +1049,7 @@ nav {
 
 
 .hide {
-  right: -280px!important;
+  right: -110%!important;
   transition: all 0.5s ease-in-out;
 }
 .show {

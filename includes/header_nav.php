@@ -52,10 +52,11 @@
             </a>
           </div>
 
-          <div class="navbar-brand" id="navName">
-            <span>Sam Donaghy-Bell</span><br>
-            <cite>Course of Life</cite>
-          </div>
+          <div class="navbar-brand">
+            <a id="navName" href="/home.php">
+              <span>Sam Donaghy-Bell</span><br>
+              <cite>Course of Life</cite>
+          </a></div>
 
 
         </div>
@@ -110,7 +111,7 @@
 
 
       <!--NAVBAR HAMBURGER ON md and less-->
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarItems">
+      <button type="button" class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#navbarItems">
         <span class="navbar-toggler-icon"></span>
       </button>
       <!--/NAVBAR HAMBURGER ON md and less-->

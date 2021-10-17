@@ -36,7 +36,8 @@
       <div id="aboutMeText" class="col-12 themeColorText">
         <p>I’m a former film & TV drama camera engineer of 12 years turned self-taught developer. <br><br>
 
-        <h2>TL;DR</h2> This is my personal site where I'll share my skills, thoughts and ambitions. <br><br> I currently work as a Jr. Dev at Reflex Studios in Belfast.    I started at Reflex with 8 months of coding experience and since then I've been able to grow my skillset exponentially. <br><br>
+        <h2>TL;DR</h2> This is my personal site where I'll share my skills, thoughts and ambitions. <br><br> 
+        I currently work as a Jr. Dev in Belfast.    I started my current position with 8 months of coding experience and since then I've been able to grow my skillset exponentially. <br><br>
 
         I’m an extremely driven person and a fast learner with a "challenge accepted" approach to anything I don't know how to do.   I find I learn new skills most efficiently when coding real world solutions for real world problems. <br><br>
 
@@ -97,7 +98,8 @@
           <img src="tailwindLogo.png" alt="" class="" width="100px">
         </div>
 
-        <p class="card-text skillsText">I built my first website using zero bootstrap, my second using Bootstrap3, the third using BS4.  <br><br>I'm now very fond of <strong>Tailwind CSS</strong>. <br> It's small, highly and easily customisable and makes getting off the ground really fast.  <br><br> In recent projects I've taken to extending the life out of the themes so as to really unlock it's capabilities. <br><br> I'm also familiar with the new JIT (just-in-time) mode.</p>
+        <p class="card-text skillsText">I built my first website using zero bootstrap, my second using Bootstrap3, the third using BS4.  <br><br>I'm now very fond of <strong>Tailwind CSS</strong>. <br> It's small, highly and easily customisable and makes getting off the ground really fast.  <br><br>
+        In recent projects I've taken to extending the life out of the themes so as to really unlock it's capabilities. <br><br> I'm also familiar with the new JIT (just-in-time) mode.</p>
       </div>
     </div>
 
@@ -114,7 +116,7 @@
           <img src="jqueryLogo.png" alt="" class="" width="100px">
         </div>
         <p class="card-text skillsText">
-          I  &#10084;  the literally endless capabilities of this language. <br><br>
+          I &#10084;   the literally endless capabilities of this language. <br><br>
           I'm well versed in vanilla JS as well as jQuery and it's many plugins. Whether via CND or NPM. <br><br>
           Some recent projects have required: <br><br>
         <div class="skillsText">
@@ -122,7 +124,8 @@
           <li>- Checking logged in user data against collections for allowing different products to be purchased</li><br>
           <li>- Showing warning message depending on products status</li><br>
           <li>- Integrating What3Words into GoogleMaps API to allow clients to swap their coordinates for 3 words instead</li><br>
-          <li>- Looping through YouTube videos, getting ID's and applying the embedded thumbnail of each to an img tag for each video</li>
+          <li>- Looping through YouTube videos, getting ID's and applying the embedded thumbnail of each to an img tag for each video</li><br>
+          <li>- Saving data to local storage (like your dark or light mode preferences here!)</li>
 
         </div>
 
@@ -147,7 +150,7 @@
           <li>- Live Weather APIs</li>
           <li>- Spotify API</li>
           <li>- LastFM API</li>
-          <li>- fInternational Space Station tracking API</li>
+          <li>- International Space Station tracking API</li>
         </div>
         </p>
       </div>
