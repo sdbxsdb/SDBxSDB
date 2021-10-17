@@ -1,11 +1,64 @@
-//DARK MODE TOGGLE
-const checkbox = document.getElementById('checkbox');
 
-checkbox.addEventListener('change', ()=>{
-  console.log("changed");
-  $(".darkModeBody").toggleClass("light-mode-body");
-  $(".darkModeText").toggleClass("light-mode-text");
-});
+
+// On page load set the theme.
+(function() {
+  let onpageLoad = localStorage.getItem("theme") || "";
+  let element = document.body;
+
+  element.classList.add(onpageLoad);
+  document.getElementById("theme").textContent = localStorage.getItem("theme") || "dark";
+
+  let theme = localStorage.getItem("theme");
+
+  if ( theme == "light-mode") {
+    $(".themeColorBody").addClass("light-mode-body");
+    $(".themeColorText").addClass("light-mode-text");
+    // console.log("START UP LIGHT=", localStorage.theme);
+  } 
+  
+  if (theme == "dark-mode") {
+    $(".themeColorBody").removeClass("light-mode-body");
+    $(".themeColorText").removeClass("light-mode-text");
+    // console.log("START UP DARK=", localStorage.theme);
+  }
+  
+  
+})();
+
+function themeToggle() {
+  let element = document.body;
+  element.classList.toggle("light-mode");
+
+  let theme = localStorage.getItem("theme");
+  
+  if (theme && theme === "light-mode") {
+    localStorage.setItem("theme", "dark-mode");
+    $(".themeColorBody").removeClass("light-mode-body");
+    $(".themeColorText").removeClass("light-mode-text");
+    // console.log("DARK=", localStorage.theme);
+  } else {
+    localStorage.setItem("theme", "light-mode");
+    $(".themeColorBody").addClass("light-mode-body");
+    $(".themeColorText").addClass("light-mode-text");
+    // console.log("LIGHT=", localStorage.theme);
+  }
+
+  document.getElementById("theme").textContent = localStorage.getItem("theme");
+}
+
+
+
+
+
+
+
+
+//$(".themeColorBody").toggleClass("light-mode-body");
+//$(".themeColorText").toggleClass("light-mode-text");
+
+
+
+
 
 $(".skillsCard").hover( function() {
   $('.skillsLogo', this).toggleClass('hide');
@@ -17,6 +70,9 @@ $(".skillsCard").hover( function() {
 $( ".skillsCard" ).mouseleave( function() {
   $(this).css('height', '320px');
 });
+
+
+
 
 
 

@@ -26,21 +26,21 @@
 
   </div>
 
-  <div id="aboutMeWrapper" class="row align-items-center darkModeBody">
+  <div id="aboutMeWrapper" class="row themeColorBody align-items-center">
     <div class="container" id="aboutMe">
 
-      <div id="aboutMeTitle" class="col-12 darkModeText">
-        <h2>Who am I?</h2>
+      <div id="aboutMeTitle" class="col-12 ">
+        <h2 class="themeColorText">Who am I?</h2>
       </div>
 
-      <div id="aboutMeText" class="col-12 darkModeText">
+      <div id="aboutMeText" class="col-12 themeColorText">
         <p>I’m a former film & TV drama camera engineer of 12 years turned self-taught developer. <br><br>
 
         <h2>TL;DR</h2> This is my personal site where I'll share my skills, thoughts and ambitions. <br><br> I currently work as a Jr. Dev at Reflex Studios in Belfast.    I started at Reflex with 8 months of coding experience and since then I've been able to grow my skillset exponentially. <br><br>
 
         I’m an extremely driven person and a fast learner with a "challenge accepted" approach to anything I don't know how to do.   I find I learn new skills most efficiently when coding real world solutions for real world problems. <br><br>
 
-        I also code for fun and for personal projects.   For example, when I first saw a <a id="mirrorIntroLink" href="/smartMirror.php" class="darkModeText">“smart mirror”</a> many years ago I knew that I wanted one build one of my own.  So I did.
+        I also code for fun and for personal projects.   For example, when I first saw a <a id="mirrorIntroLink" href="/smartMirror.php" class="themeColorText">“smart mirror”</a> many years ago I knew that I wanted one build one of my own.  So I did.
         <br><br>
 
         <br><br>
@@ -67,7 +67,7 @@
 
   <div class="card-deck">
 
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="html5logo.png" alt="" class="" width="100px">
@@ -76,7 +76,7 @@
       </div>
     </div>
 
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="sassLogo.png" alt="" class="" width="80px">
@@ -90,7 +90,7 @@
       </div>
     </div>
 
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="bootstrapLogo.png" alt="" class="" width="100px">
@@ -107,7 +107,7 @@
   <div class="card-deck">
 
 
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="jsLogo.png" alt="" class="" width="80px">
@@ -131,7 +131,7 @@
       </div>
 
     </div>
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="apiLogo.png" alt="" class="" width="110px">
@@ -152,7 +152,7 @@
         </p>
       </div>
     </div>
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="snipcartLogo.png" alt="" class="" width="100px">
@@ -171,7 +171,7 @@
   </div>
 
   <div class="card-deck">
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="itermLogo.png" alt="" class="" width="80px">
@@ -185,7 +185,7 @@
 
 
     </div>
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="adobeLogo.png" alt="" class="" width="100px">
@@ -193,7 +193,7 @@
         <p class="card-text skillsText">I started creating & manipulating with Photoshop back in the CS2 days (11 years ago!). <br><br> I've grown and updated my skills with every version since. <br><br> I'm also extremely well practiced in Pr and AE.</p>
       </div>
     </div>
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="figmaLogo.png" alt="" class="" width="80px">
@@ -211,7 +211,7 @@
   </div>
 
   <div class="card-deck">
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <!--<h5 class="card-title">CMS</h5>-->
         <div class="skillsLogo">
@@ -226,7 +226,7 @@
 
     </div>
 
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="laravelLogo.png" alt="" class="" width="100px">
@@ -239,7 +239,7 @@
       </div>
 
     </div>
-    <div class="card skillsCard darkModeBody darkModeText">
+    <div class="card skillsCard themeColorBody themeColorText">
       <div class="card-body">
         <div class="skillsLogo">
           <img src="vueLogo.png" alt="" class="" width="100px">
@@ -262,31 +262,31 @@
   <div id="portfolioAnchor"></div>
   <!--ABOUT ANCHOR TAG-->
 
-  <div id="portfolioTitle" class="darkModeText">
+  <div id="portfolioTitle" class="themeColorText">
     <h3>Portfolio</h3>
     <p>Feel free to have a look at a handful of the things I've built!</p>
   </div>
-  <div id="portfolioContent" class="darkModeBody">
+  <div id="portfolioContent" class="themeColorBody">
     <div class="card-group ">
 
-      <div class="card  darkModeBody">
+      <div class="card  themeColorBody">
         <a href="/portfolioCineCopters.php">
           <img id="topLcard" class="card-img-top" src="/img/belfastcitycopy.jpg">
-          <h5 class="card-title darkModeText">CineCopters Drones</h5>
+          <h5 class="card-title themeColorText">CineCopters Drones</h5>
         </a>
       </div>
 
-      <div class="card darkModeBody">
+      <div class="card themeColorBody">
         <a href="/portfolioEverAfter.php">
           <img class="card-img-top" src="/img/wedding.jpg">
-          <h5 class="card-title darkModeText">Ever After Films</h5>
+          <h5 class="card-title themeColorText">Ever After Films</h5>
         </a>
       </div>
 
-      <div class="card darkModeBody">
+      <div class="card themeColorBody">
         <a href="/portfolioFamilyGram.php">
           <img id="topRcard" class="card-img-top" src="/img/famGramLogo-mincopy.png">
-          <h5 class="card-title darkModeText">Family Gram</h5>
+          <h5 class="card-title themeColorText">Family Gram</h5>
         </a>
       </div>
 
@@ -294,23 +294,23 @@
 
     </div>
     <div class="card-group">
-      <div class="card darkModeBody">
+      <div class="card themeColorBody">
         <a href="/portfolioKidsGame.php">
           <img id="btmLcard" class="card-img-top" src="/img/kidsGame1.jpg">
-          <h5 class="card-title darkModeText">Children's Game</h5>
+          <h5 class="card-title themeColorText">Children's Game</h5>
         </a>
       </div>
       
-      <div class="card darkModeBody">
+      <div class="card themeColorBody">
         <a href="/portfoliopagePong.php">
           <img id="" class="card-img-top" src="/img/pong.png">
-          <h5 class="card-title darkModeText">Pong Game</h5>
+          <h5 class="card-title themeColorText">Pong Game</h5>
         </a>
       </div>
-      <div class="card darkModeBody">
+      <div class="card themeColorBody">
         <a href="/smartMirror.php">
           <img id="btmRcard" class="card-img-top" src="/img/smartmirror/IMG_2296-min.jpg">
-          <h5 class="card-title darkModeText">Smart Mirror</h5>
+          <h5 class="card-title themeColorText">Smart Mirror</h5>
         </a>
       </div>
     </div>
@@ -322,17 +322,17 @@
 
 <!--CONTACT-->
 
-<div id="contact" class="container contact-form darkModeBody ">
+<div id="contact" class="container contact-form themeColorBody ">
 
   <div id="contactAnchor"></div>
   <!--CONTACT ANCHOR TAG-->
 
-  <div class="contact-image" class="darkModeBody">
-    <img id="contactLogo" class="darkModeBody" src="/img/sam avatar no bg.png" width="150px" alt="SDB logo" />
+  <div class="contact-image" class="themeColorBody">
+    <img id="contactLogo" class="themeColorBody" src="/img/sam avatar no bg.png" width="150px" alt="SDB logo" />
   </div>
 
   <form method="post" action="thankssubmit.php">
-    <h3 class="darkModeText">Drop Me a Message</h3>
+    <h3 class="themeColorText">Drop Me a Message</h3>
     <div class="row">
 
       <div class="col-sm">

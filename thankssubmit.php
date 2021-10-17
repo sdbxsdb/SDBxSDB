@@ -80,8 +80,8 @@ $headers = 'From: '.$email_from."\r\n".
 <!-- THANKS OR SUCCESS MESSAGE AFTER THE EMAIL HAS BEEN SENT -->
 <section id="thanksMsgPG">
 
-<h1 class="thanksmsg darkModeText">Thanks for getting in touch.</h1>
-<h3 class="thanksmsg darkModeText">I'll get back to you ASAP!</h3>
+<h1 class="thanksmsg themeColorText">Thanks for getting in touch.</h1>
+<h3 class="thanksmsg themeColorText">I'll get back to you ASAP!</h3>
 <a href="index.php"><button class="btn btn-success">Back</button></a>
 
 </section>

@@ -62,7 +62,7 @@
         <iframe src="https://www.sdbkidsgame.xyz/" frameborder="0"></iframe>
       </div>
 
-      <p class="layoutWarning darkModeText"><small><cite>*NB that layout of game in the pane above may not be true if viewed on a mobile device due to the viewer window being too small.</cite></small></p>
+      <p class="layoutWarning themeColorText"><small><cite>*NB that layout of game in the pane above may not be true if viewed on a mobile device due to the viewer window being too small.</cite></small></p>
 
       <div class="tab-pane" id="cssCode" role="tabpanel">
         <code>
@@ -86,15 +86,15 @@
   </div>
 
       <div id="text">
-        <p class="darkModeText"> This is a children's game I made from scratch for my nieces using HTML, SCSS and JavaScript / jQuery. <br><br><br>It's a relatively simple drag and drop game with <cite>really</cite> annoying sound effects.  <br> It allows you to input your name at the start which carries across each page as you play.<br><br><br>It was my first dip into storing and recalling data, in this case to and from local storage. <br> The game also has touch and drag intergrated via jQuery to allow for use on tablets.<br><br><br> The game is best viewed on a desktop, laptop or tablet.<br><br></p>
+        <p class="themeColorText"> This is a children's game I made from scratch for my nieces using HTML, SCSS and JavaScript / jQuery. <br><br><br>It's a relatively simple drag and drop game with <cite>really</cite> annoying sound effects.  <br> It allows you to input your name at the start which carries across each page as you play.<br><br><br>It was my first dip into storing and recalling data, in this case to and from local storage. <br> The game also has touch and drag intergrated via jQuery to allow for use on tablets.<br><br><br> The game is best viewed on a desktop, laptop or tablet.<br><br></p>
         
       </div>
-      <a href="https://github.com/sdbxsdb/Kids-Game" target="_blank"><i class="fab fa-github darkModeText" style="font-size: 40px;"></i></a>
+      <a href="https://github.com/sdbxsdb/Kids-Game" target="_blank"><i class="fab fa-github themeColorText" style="font-size: 40px;"></i></a>
       <div>
-        <strong> <a href="https://github.com/sdbxsdb/Kids-Game" target="_blank" class="darkModeText">Link to the code.</a></strong>
+        <strong> <a href="https://github.com/sdbxsdb/Kids-Game" target="_blank" class="themeColorText">Link to the code.</a></strong>
       </div>
       <br>
-      <strong> <a href="https://sdbkidsgame.xyz/" target="_blank" class="darkModeText">Link to the site.</a></strong>
+      <strong> <a href="https://sdbkidsgame.xyz/" target="_blank" class="themeColorText">Link to the site.</a></strong>
     </div>
   </div>
 

@@ -6,7 +6,7 @@
   <div class="container">
     <div id="header">
       <div id="title">
-        <h1 class="darkModeText">FamGram</h1>
+        <h1 class="themeColorText">FamGram</h1>
       </div>
 
       <div class="container" id="code">
@@ -92,8 +92,8 @@
 
 
       <div id="text" >
-        <p class="darkModeText">With all the lockdowns and not being able to see family I came up with the idea of creating this platform and with the help of a few tutorials I made - Family Instagram or FamGram.  It's an Instagram style platform I built using Laravel. <br><br><br> <strong>Packages used -</strong>
-        <ul class="listElements darkModeText">
+        <p class="themeColorText">With all the lockdowns and not being able to see family I came up with the idea of creating this platform and with the help of a few tutorials I made - Family Instagram or FamGram.  It's an Instagram style platform I built using Laravel. <br><br><br> <strong>Packages used -</strong>
+        <ul class="listElements themeColorText">
           <li>HomeBrew</li>
           <li>Composer</li>
           <li>Laravel</li>
@@ -103,8 +103,8 @@
           <li>Intervention Image</li>
         </ul>
         <br><br>
-        <p class="darkModeText"><strong>Features Include</strong> -</p>
-        <ul class="listElements darkModeText">
+        <p class="themeColorText"><strong>Features Include</strong> -</p>
+        <ul class="listElements themeColorText">
           <li>Create a user which is stored to the database</li>
           <li>Get a welcome email upon registering</li>
           <li>Edit and add a profile picture, title, description and URL</li>
@@ -114,9 +114,9 @@
           <li>Shows a newsfeed of their followed users posts</li>
 
         </ul><br>
-        <a href="https://github.com/sdbxsdb/famGram" target="_blank"><i class="fab fa-github darkModeText" style="font-size: 40px;"></i></a>
+        <a href="https://github.com/sdbxsdb/famGram" target="_blank"><i class="fab fa-github themeColorText" style="font-size: 40px;"></i></a>
         <div>
-          <strong><a href="https://github.com/sdbxsdb/famGram" target="_blank" class="darkModeText">Link to the code.</a></strong>
+          <strong><a href="https://github.com/sdbxsdb/famGram" target="_blank" class="themeColorText">Link to the code.</a></strong>
         </div>
 
         </p>

@@ -74,11 +74,11 @@
   </div>
 
       <div id="text">
-        <p class="darkModeText">This is the classic arcade game "Pong" which I built using HTML, SCSS and JavaScript.  I then intergrated it into the welcome page of my website for a bit of fun.<br><br>I followed a tutorial for the majority of the game build but was able to fix a few bugs like the balls speed increase breaking the barrier of what counted as a goal and the balls speed only resetting on one axis.</p>
+        <p class="themeColorText">This is the classic arcade game "Pong" which I built using HTML, SCSS and JavaScript.  I then intergrated it into the welcome page of my website for a bit of fun.<br><br>I followed a tutorial for the majority of the game build but was able to fix a few bugs like the balls speed increase breaking the barrier of what counted as a goal and the balls speed only resetting on one axis.</p>
         <br>
-        <p class="darkModeText">I'll admit that when the math and angles were introduced they went over my head but I was able to make sense of the rest of the code pretty well and thoroughly enjoyed branching out into this slightly different style of JavaScript</p>
+        <p class="themeColorText">I'll admit that when the math and angles were introduced they went over my head but I was able to make sense of the rest of the code pretty well and thoroughly enjoyed branching out into this slightly different style of JavaScript</p>
         <br>
-        <strong class="darkModeText"><a href="https://sdbxsdb.com/" target="_blank" class="darkModeText">Link to the game.</a></strong><br><br>
+        <strong class="themeColorText"><a href="https://sdbxsdb.com/" target="_blank" class="themeColorText">Link to the game.</a></strong><br><br>
         
 
       </div>

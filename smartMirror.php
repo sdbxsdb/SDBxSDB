@@ -5,7 +5,7 @@
   <div class="container">
     <div id="header">
       <div id="title">
-        <h1 class="darkModeText">Smart Mirror</h1>
+        <h1 class="themeColorText">Smart Mirror</h1>
       </div>
 
       <div class="container" id="code">
@@ -151,9 +151,9 @@
 
 
       <div id="text">
-        <p class="darkModeText"> A mixture of software and hardware - A mirror when off, a display when on.<br><br>I love building things, both software and hardware so when I saw a concept of a smart mirror a few years ago I knew I had to build my own someday.  I started off by dismantling an old display to it's bare bones. Then I attached a 2 way glass mirror to the LCD screen with industrial adhesive.  <br><br>Built with the use of Raspberry Pi, a number of APIs, AJAX and some custom elements the mirror displays: </p>
+        <p class="themeColorText"> A mixture of software and hardware - A mirror when off, a display when on.<br><br>I love building things, both software and hardware so when I saw a concept of a smart mirror a few years ago I knew I had to build my own someday.  I started off by dismantling an old display to it's bare bones. Then I attached a 2 way glass mirror to the LCD screen with industrial adhesive.  <br><br>Built with the use of Raspberry Pi, a number of APIs, AJAX and some custom elements the mirror displays: </p>
         <br>
-        <ul class="listElements darkModeText">
+        <ul class="listElements themeColorText">
           <li>Local time in analogue and digital 24hr format</li>
           <li>Local weather with visual displays &amp; updates every 30mins</li>
           <li>Live Sky News</li>
@@ -161,11 +161,11 @@
           <li>A daily fact about cats!</li>
         </ul>
         <br><br>
-        <p class="darkModeText">A nice feature I implemented was that when there is music playing the news is muted and when there's no music the news is unmuted.</p>
+        <p class="themeColorText">A nice feature I implemented was that when there is music playing the news is muted and when there's no music the news is unmuted.</p>
       </div>
-      <a href="https://github.com/sdbxsdb/Smart-Mirror" target="_blank"><i class="fab fa-github darkModeText" style="font-size: 40px;"></i></a>
+      <a href="https://github.com/sdbxsdb/Smart-Mirror" target="_blank"><i class="fab fa-github themeColorText" style="font-size: 40px;"></i></a>
       <div>
-        <strong> <a href="https://github.com/sdbxsdb/Smart-Mirror" target="_blank" class="darkModeText">Link to the code.</a></strong>
+        <strong> <a href="https://github.com/sdbxsdb/Smart-Mirror" target="_blank" class="themeColorText">Link to the code.</a></strong>
       </div>
       <br>
     </div>

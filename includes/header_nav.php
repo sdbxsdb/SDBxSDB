@@ -36,7 +36,7 @@
 
 </head>
 
-<body class="darkModeBody">
+<body class="themeColorBody">
 
   <section id="home">
 
@@ -56,7 +56,7 @@
             <span>Sam Donaghy-Bell</span><br>
             <cite>Course of Life</cite>
           </div>
-          
+
 
         </div>
 
@@ -91,8 +91,10 @@
       </div>
 
       <div class="darkModeToggle">
+        <div style="display: none;" id="theme"></div>
         <label>
-          <input id="checkbox" class='toggle-checkbox' type='checkbox'></input>
+          <input id="darkModeCheckbox" class='toggle-checkbox' type='checkbox' onclick="themeToggle()"></input>
+
           <div class='toggle-slot'>
             <div class='sun-icon-wrapper'>
               <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>

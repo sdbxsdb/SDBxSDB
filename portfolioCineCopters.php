@@ -5,7 +5,7 @@
 
   <div class="container">
     <div id="header">
-      <div id="title" class="darkModeText">
+      <div id="title" class="themeColorText">
         <h1>CineCopters | Drones for Film &amp; TV</h1>
       </div>
       <div class="container" id="code">
@@ -16,13 +16,13 @@
         <iframe src="https://cinecopters.co.uk/" frameborder="0"></iframe>
       </div>
 
-      <p class="layoutWarning darkModeText"><small><cite>*NB that layout of website in the pane above may not be true if viewed on a mobile device due to the viewer window being too small.</cite></small></p>
+      <p class="layoutWarning themeColorText"><small><cite>*NB that layout of website in the pane above may not be true if viewed on a mobile device due to the viewer window being too small.</cite></small></p>
 
     </div>
   </div>
       <div id="text" >
-        <p class="darkModeText">My most in-depth website to date at the time in terms of size and functionality.  Built using HTML 5, PHP, SCSS, Bootstrap 4, JavaScript and jQuery.  The site contains:
-        <ul class="listElements darkModeText">
+        <p class="themeColorText">My most in-depth website to date at the time in terms of size and functionality.  Built using HTML 5, PHP, SCSS, Bootstrap 4, JavaScript and jQuery.  The site contains:
+        <ul class="listElements themeColorText">
           <li>Page position anchors</li>
           <li>iframes</li>
           <li>Youtube API</li>
@@ -37,13 +37,13 @@
           <li>Tappable numbers and emails for handheld devices</li>
           <li>and more</li>
         </ul><br>
-        <a href="https://github.com/sdbxsdb/CineCopters" target="_blank"><i class="fab fa-github darkModeText" style="font-size: 40px;"></i></a>
+        <a href="https://github.com/sdbxsdb/CineCopters" target="_blank"><i class="fab fa-github themeColorText" style="font-size: 40px;"></i></a>
         <div>
-          <strong><a href="https://github.com/sdbxsdb/CineCopters" target="_blank" class="darkModeText">Link to the code.</a></strong>
+          <strong><a href="https://github.com/sdbxsdb/CineCopters" target="_blank" class="themeColorText">Link to the code.</a></strong>
         </div>
         <br>
       
-        <strong><a href="https://cinecopters.co.uk/" target="_blank" class="darkModeText">Link to the site.</a></strong>
+        <strong><a href="https://cinecopters.co.uk/" target="_blank" class="themeColorText">Link to the site.</a></strong>
         </p>
       </div>
     </div>
