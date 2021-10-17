@@ -42,7 +42,7 @@
   
           I’m an extremely driven person and a fast learner with a "challenge accepted" approach to anything I don't know how to do.   I find I learn new skills most efficiently when coding real world solutions for real world problems. <br><br>
   
-          I also code for fun and for personal projects.   For example, when I first saw a <a id="mirrorIntroLink" href="/smartMirror.php" class="themeColorText">“smart mirror”</a> many years ago I knew that I wanted one build one of my own.  So I did.
+          I also code for fun and for personal projects.   For example, when I first saw a <a id="mirrorIntroLink" href="/smartMirror.php" class="themeColorText">“smart mirror”</a> many years ago I knew that I wanted to build one of my own.  So I did.
           <br><br>
   
   
