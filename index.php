@@ -21,6 +21,8 @@
         </label>
       </div> -->
 
+    <div style="display: none;" id="theme"></div>
+
     <div id="welcome" class="container themeColorText">
       <h1>Hi, I'm Sam!</h1><br>
       <p>Welcome to my site. <br> Have a game of pong and when you're ready head on in!
