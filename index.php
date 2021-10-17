@@ -33,7 +33,7 @@
     <div id="gameWrapper">
 
       <div id="screenTooSmall">
-        <h6>If you can see this message it means your device is too small to play the game.  Sorry! :( <br><br>Try again on a larger screen!</h6>
+        <h6>If you can see this message it means your device is too small to play the game.  Sorry! &#128533; <br><br>Try again on a larger screen!</h6>
       </div>
 
 
