@@ -218,6 +218,7 @@ nav {
 }
 
 #mainPageWrapper {
+  overflow-x: hidden;
   margin-top: 100px;
 }
 
@@ -597,7 +598,11 @@ nav {
   border-radius: 10px;
   text-align: center;
   margin-top: 200px;
+  margin-bottom: 10px;
   padding: 0 40px 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 90%;
 }
 
 #home #contact #contactLogo {

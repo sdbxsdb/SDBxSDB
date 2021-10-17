@@ -640,13 +640,15 @@ nav {
 
   #contact {
     transition: all 0.5s ease-in-out;
-
     background-color: $black;
     box-shadow: 0px 0px 15px 0px rgba(52, 165, 240, 0.2);
     border-radius: 10px;
     text-align: center;
     margin-top: 200px;
+    margin-bottom: 10px;
     padding: 0 40px 40px;
+    box-sizing: border-box;
+    width: 90%;
 
 
     #contactLogo {
