@@ -255,6 +255,18 @@
         </div>
       </div>
     </div>
+
+    <div class="card-deck">
+      <div class="card skillsCard themeColorBody themeColorText">
+        <div class="card-body">
+          <!--<h5 class="card-title">CMS</h5>-->
+          <div class="skillsLogo">
+            <img src="debugLogo.png" alt="" class="" width="100px">
+          </div>
+          <img class="skillsText" height="278px" src="https://media.giphy.com/media/y47oj4ptjPm5W/giphy.gif" alt="">
+        </div>
+      </div>
+    </div>
   </div>
   
   <!--/SKILLS-->
@@ -318,6 +330,8 @@
           </a>
         </div>
       </div>
+
+      
     </div>
   </div>
   
