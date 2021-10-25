@@ -250,6 +250,8 @@
             <img src="reactLogo.png" alt="" class="" width="100px">
           </div>
           <p class="card-text skillsText">In a few recent projects I've used VueJs to work with dynamically input user data, pass data from 'page' to 'page' and display accordingly. <br><br>
+          I've also built a simple, single page React app todo list.  It stores new data to a Firebase DB and allows the user to add and remove from the "done" list. 
+          <br><br>
             I know I've barely scratched the surface of Vue, React and the likes but what I've done so far has me extremely keen to keep exploring. <br><br> The more practical, real world applications I can get the chance to work on the better and I'll jump at any chance to learn as much of Vue and or React as possible.
           </p>
         </div>
