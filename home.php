@@ -38,7 +38,7 @@
           <p>I’m a former film & TV drama camera engineer of 12 years turned self-taught developer. <br><br>
   
           <h2>TL;DR</h2> This is my personal site where I'll share my skills, thoughts and ambitions.<br><br>
-          I currently work as a developer in Belfast.  I was a camera engineer for film and TV productions for 12 years but I've now taken to go coding full time.  
+          I currently work as a developer in Belfast but I was a camera engineer for film and TV productions for 12 years but I've now taken to go coding full time.  
           <br><br>
           I've been coding for a number of years in and out for <a id="mirrorIntroLink" href="/smartMirror.php" class="themeColorText">side projects</a> (like my 'smart mirror'), other work related projects and building ✈️ drones ✈️ for my company CineCopters.  
 
