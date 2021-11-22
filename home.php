@@ -40,7 +40,7 @@
           <h2>TL;DR</h2> This is my personal site where I'll share my skills, thoughts and ambitions.<br><br>
           I'm former camera engineer for film and TV productions of 12 years but I've now taken to go coding full time and currently work as a developer in Belfast.
           <br><br>
-          I've been coding for a number of years in and out for <a id="mirrorIntroLink" href="/smartMirror.php" class="themeColorText">side projects</a> (like my 'smart mirror'), other work related projects and building ✈️ drones ✈️ for my company CineCopters.  
+          I've been coding for a number of years in and out for side projects <strong><a id="mirrorIntroLink" href="/smartMirror.php" class="themeColorText"> (like my 'smart mirror')</a></strong>, other work related projects and building ✈️ drones ✈️ for my company CineCopters.  
 
           <br><br>
   
