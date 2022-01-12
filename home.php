@@ -38,9 +38,9 @@
           <p>I’m a former film & TV drama camera engineer of 12 years turned self-taught developer. <br><br>
   
           <h2>TL;DR</h2> This is my personal site where I'll share my skills, thoughts and ambitions.<br><br>
-          I'm former camera engineer for film and TV productions of 12 years but I've now taken to go coding full time and currently work as a developer in Belfast.
+          I'm former camera engineer for film and TV productions of 12 years working on $100m+ motion picures all over the world.   I've since taken to development full time for a change of pace and a better work / life balance.  I currently work as a developer in Belfast.
           <br><br>
-          I've been coding for a number of years in and out for side projects <strong><a id="mirrorIntroLink" href="/smartMirror.php" class="themeColorText"> (like my 'smart mirror')</a></strong>, other work related projects and building ✈️ drones ✈️ for my company CineCopters.  
+          I've been coding for a number of years for side and personal projects <strong><a id="mirrorIntroLink" href="/smartMirror.php" class="themeColorText"> (like my 'smart mirror')</a></strong>, other work related projects and building and programming  ✈️  drones  ✈️  for my company <a style="color:white;" class='themeColorText' href="https://cinecopters.co.uk/" target="_blank">CineCopters</a>.  
 
           <br><br>
   
@@ -247,13 +247,14 @@
       <div class="card skillsCard themeColorBody themeColorText">
         <div class="card-body">
           <div class="skillsLogo">
-            <img src="vueLogo.png" alt="" class="" width="100px">
+            <img src="next-js2.png" alt="" class="" width="100px">
             <img src="reactLogo.png" alt="" class="" width="100px">
           </div>
-          <p class="card-text skillsText">In a few recent projects I've used VueJs to work with dynamically input user data, pass data from 'page' to 'page' and display accordingly. <br><br>
+          <p class="card-text skillsText">In a few recent projects I've used NextJS to build a loan calculator.  The calculator works out monthly, weekly and fortnight loan repayments depending on loan amount, term length and APR rate. This was then intergrated into a static website. <br><br> I've also used VueJs to work with dynamically input user data, pass data from 'page' to 'page' and display accordingly. <br><br>
+          I'm currently rebuilding this site in NextJS and plan to host it on Vercel and update my CNAME settings accordingly <br><br>
           I've also built a simple, single page React app todo list.  It stores new data to a Firebase DB and allows the user to add and remove from the "done" list. 
           <br><br>
-            I know I've barely scratched the surface of Vue, React and the likes but what I've done so far has me extremely keen to keep exploring. <br><br> The more practical, real world applications I can get the chance to work on the better and I'll jump at any chance to learn as much of Vue and or React as possible.
+            I know I've barely scratched the surface of Next, Vue, React and the likes but what I've done so far has me extremely keen to keep learning. <br><br> The more practical, real world applications I can get the chance to work on the better and I'll jump at any chance to learn as much of React and it's frameworks as possible.
           </p>
         </div>
       </div>
